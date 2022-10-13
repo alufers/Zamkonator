@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "RTL8201F")(type "KiCad")(uri "${KIPRJMOD}/RTL8201F.kicad_sym")(options "")(descr ""))
+  (lib (name "SI3404-A-GM")(type "KiCad")(uri "${KIPRJMOD}/SI3404-A-GM.kicad_sym")(options "")(descr ""))
+  (lib (name "HR051142")(type "KiCad")(uri "${KIPRJMOD}/HR051142.kicad_sym")(options "")(descr ""))
+  (lib (name "AN431")(type "KiCad")(uri "${KIPRJMOD}/AN431.kicad_sym")(options "")(descr ""))
+  (lib (name "MT2492")(type "KiCad")(uri "${KIPRJMOD}/MT2492.kicad_sym")(options "")(descr ""))
+)
