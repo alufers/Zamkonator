@@ -4,4 +4,5 @@
   (lib (name "HR051142")(type "KiCad")(uri "${KIPRJMOD}/HR051142.kicad_sym")(options "")(descr ""))
   (lib (name "AN431")(type "KiCad")(uri "${KIPRJMOD}/AN431.kicad_sym")(options "")(descr ""))
   (lib (name "MT2492")(type "KiCad")(uri "${KIPRJMOD}/MT2492.kicad_sym")(options "")(descr ""))
+  (lib (name "EL3H7-G")(type "Legacy")(uri "${KIPRJMOD}/EL3H7-G.lib")(options "")(descr ""))
 )

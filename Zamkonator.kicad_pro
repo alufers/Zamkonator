@@ -336,6 +336,18 @@
     [
       "1f5389b7-4e7a-4b56-a78a-6bd1340c573b",
       "ESP32"
+    ],
+    [
+      "2418ed7a-6668-472e-9550-09c70e5c9c72",
+      "50MHZ CLOCK"
+    ],
+    [
+      "6b89ba24-3094-438d-a07a-020a470fc0fc",
+      "Wigand Intrerface"
+    ],
+    [
+      "f0d3712c-d6bb-4e32-851a-ff1f073efd27",
+      "Relay"
     ]
   ],
   "text_variables": {}
