@@ -2224,13 +2224,13 @@
       (reference "R28") (unit 1) (value "140") (footprint "")
     )
     (path "/6b89ba24-3094-438d-a07a-020a470fc0fc/aa799ef4-1d5b-4468-9298-69bfcc0d380b"
-      (reference "R29") (unit 1) (value "186") (footprint "")
+      (reference "R29") (unit 1) (value "180") (footprint "")
     )
     (path "/6b89ba24-3094-438d-a07a-020a470fc0fc/7e3b86d3-fe5a-4c0d-a0b4-d248954bcc3e"
       (reference "R30") (unit 1) (value "140") (footprint "")
     )
     (path "/6b89ba24-3094-438d-a07a-020a470fc0fc/6ed8bd89-132c-4bc6-a8fb-0f32f6832ceb"
-      (reference "R31") (unit 1) (value "186") (footprint "")
+      (reference "R31") (unit 1) (value "180") (footprint "")
     )
     (path "/0dd39886-6ed0-43ed-af54-4a02cc0bde41/f7fe4e57-e013-4c02-a36f-5cbcf5aa62bd"
       (reference "T1") (unit 1) (value "HR051142") (footprint "project specific:HR051142")
