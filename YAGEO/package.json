@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@types/docopt": "^0.6.33",
+    "@types/node": "^18.11.3",
+    "@types/yargs": "^17.0.13",
+    "command-line-args": "^5.2.1",
+    "docopt": "^0.6.2",
+    "node-fetch": "^3.2.10",
+    "s-expression": "^3.1.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
