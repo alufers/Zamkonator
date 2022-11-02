@@ -9,17 +9,19 @@
 #include "esp_err.h"
 #include "esp_log.h"
 #include "esp_system.h"
+#include "nvs_flash.h"
 #include <memory>
-
 
 #include "Storage.h"
 
 #define TAG "main"
 
 static void initialize_littlefs();
+static void initialize_nvs();
 
 void app_main(void)
 {
+    initialize_nvs();
     initialize_littlefs();
 
     std::unique_ptr<App> app = std::make_unique<App>();
@@ -62,5 +64,19 @@ static void initialize_littlefs()
     {
         ESP_LOGI(TAG, "File: %s", file.c_str());
     }
-        
+}
+/**
+ * @brief Initialize NVS for calibration data
+ * 
+ */
+static void initialize_nvs()
+{
+    // Initialize NVS
+    esp_err_t ret = nvs_flash_init();
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
+    {
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        ret = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK(ret);
 }

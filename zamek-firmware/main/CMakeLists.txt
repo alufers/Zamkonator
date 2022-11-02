@@ -7,6 +7,7 @@ set(SRCS
     "Config.cpp"
     "NetworkManager.cpp"
     "Util.cpp"
+    "XBus.cpp"
 )
 
 idf_component_register(SRCS ${SRCS}

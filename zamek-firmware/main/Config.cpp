@@ -17,7 +17,7 @@ Config::Config(std::string path)
     }
 }
 
-std::string Config::getKey(std::string key)
+nlohmann::json  Config::getKey(std::string key)
 {
     std::shared_lock<std::shared_mutex> lock(mutex);
    
@@ -28,6 +28,10 @@ std::string Config::getKey(std::string key)
     {
         std::string keyPart = keyLeft.substr(0, keyLeft.find("."));
         keyLeft = keyLeft.substr(keyLeft.find(".") + 1);
+        if(!current.contains(keyPart))
+        {
+            return nlohmann::json(nullptr);
+        }
         current = current[keyPart];
     }
     return current;

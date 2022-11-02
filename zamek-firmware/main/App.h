@@ -2,11 +2,12 @@
 #define APP_H_
 #include "Config.h"
 #include "NetworkManager.h"
+#include <memory>
 
 class App
 {
-    Config currentConfig;
-    NetworkManager networkManager;
+    std::shared_ptr<Config> currentConfig;
+    std::unique_ptr<NetworkManager> networkManager;
 
 public:
     App();
