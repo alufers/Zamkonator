@@ -19,6 +19,8 @@ Config::Config(std::string path)
 
 std::string Config::getKey(std::string key)
 {
+    std::shared_lock<std::shared_mutex> lock(mutex);
+   
    // split the key by dots
     std::string keyLeft = key;
     nlohmann::json current = data;
@@ -33,6 +35,7 @@ std::string Config::getKey(std::string key)
 
 void Config::setKey(std::string key, std::string value)
 {
+    std::unique_lock<std::shared_mutex> lock(mutex);
     // split the key by dots
     std::string keyLeft = key;
     nlohmann::json current = data;
@@ -43,5 +46,26 @@ void Config::setKey(std::string key, std::string value)
         current = current[keyPart];
     }
     current[keyLeft] = value;
+    Storage::writeJson(path, data);
+}
+
+void Config::setKey(std::string key, int value)
+{
+    std::unique_lock<std::shared_mutex> lock(mutex);
+    // split the key by dots
+    std::string keyLeft = key;
+    nlohmann::json current = data;
+    while(keyLeft.find(".") != std::string::npos)
+    {
+        std::string keyPart = keyLeft.substr(0, keyLeft.find("."));
+        keyLeft = keyLeft.substr(keyLeft.find(".") + 1);
+        current = current[keyPart];
+    }
+    current[keyLeft] = value;
+    Storage::writeJson(path, data);
+}
+
+void Config::save()
+{
     Storage::writeJson(path, data);
 }
