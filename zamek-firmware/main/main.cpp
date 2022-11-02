@@ -9,6 +9,7 @@
 #include "esp_err.h"
 #include "esp_log.h"
 #include "esp_system.h"
+#include <memory>
 
 
 #include "Storage.h"
@@ -20,6 +21,9 @@ static void initialize_littlefs();
 void app_main(void)
 {
     initialize_littlefs();
+
+    std::unique_ptr<App> app = std::make_unique<App>();
+    app->run();
 }
 
 static void initialize_littlefs()

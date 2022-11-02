@@ -2,6 +2,7 @@
 #include <sys/types.h>
 #include <dirent.h>
 #include <stdexcept>
+#include <fstream>
 
 std::vector<std::string> Storage::listFiles(std::string path)
 {
@@ -18,4 +19,26 @@ std::vector<std::string> Storage::listFiles(std::string path)
     }
     closedir(dr);
     return files;
+}
+
+nlohmann::json Storage::readJson(std::string path)
+{
+    std::ifstream file(path);
+    if (!file.is_open())
+    {
+        throw std::runtime_error("Could not open file " + path);
+    }
+    nlohmann::json data;
+    file >> data;
+    return data;
+}
+
+void Storage::writeJson(std::string path, nlohmann::json data)
+{
+    std::ofstream file(path);
+    if (!file.is_open())
+    {
+        throw std::runtime_error("Could not open file " + path);
+    }
+    file << data;
 }
