@@ -5,6 +5,7 @@
 #include <shared_mutex>
 #include <atomic>
 #include <memory>
+#include <condition_variable>
 
 /**
  * @brief XBus facilitates communication between multiple threads. It is an IPC mechanism.
@@ -13,7 +14,7 @@
 class XBus
 {
 public:
-    void publish(std::string topic, nlohmann::json data);
+    void in(std::string topic, nlohmann::json data);
 
     /**
      * @brief Accepts a callback function that will be called when a message is received.
@@ -21,15 +22,18 @@ public:
      * The callback should prcess the message, but not store it.
      * @param callback
      */
-    void processMessages(std::function<bool(std::string topic, const nlohmann::json &data)> callback);
+    void out(std::function<bool(std::string topic, const nlohmann::json &data)> callback);
 private:
     std::unique_ptr<const nlohmann::json> currentMessage = nullptr;
     std::string currentTopic;
+
     /**
      * @brief This mutex is used to lock the currentMessage and currentTopic, until all threads finish processing the message.
      */
     std::shared_mutex processing_mutex;
-    std::atomic_flag processing = ATOMIC_FLAG_INIT;
+    std::condition_variable notification_var;
+    
+    
 
 };
 

@@ -6,9 +6,8 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-NetworkManager::NetworkManager(std::shared_ptr<Config> config)
+NetworkManager::NetworkManager(std::shared_ptr<Config> config, std::shared_ptr<XBus> xbus) : config(config), xbus(xbus)
 {
-    this->config = config;
 }
 
 void NetworkManager::start()
@@ -58,4 +57,5 @@ void NetworkManager::startAP()
     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_AP, &wifi_config));
     ESP_ERROR_CHECK(esp_wifi_start());
     ESP_LOGI(TAG, "AP started (%s, %s)", ssidBytes, NetworkManager::DEFAULT_PASSWORD);
+    this->xbus->in("network.ap.started", {{"ssid", ssidBytes}, {"password", NetworkManager::DEFAULT_PASSWORD}});
 }
