@@ -1,5 +1,5 @@
 import * as path from "path";
-
+import * from "fs/promises";
 export abstract class KicadObject {
   abstract kind?: string;
   abstract toSex(): Array<any>;
@@ -127,6 +127,10 @@ export class KicadSchematic extends KicadObjectWithChildren {
       out.push(...(await sheetObj.loadSubsheets(loader, sheetFile)));
     }
     return out;
+  }
+
+  async save(path: string) {
+    
   }
 }
 

@@ -126,16 +126,21 @@ Options:
         amountNeeded = firstPart.minBuyNumber;
       }
 
-      amountNeeded = Math.ceil(amountNeeded / firstPart.split) * firstPart.split;
+      amountNeeded =
+        Math.ceil(amountNeeded / firstPart.split) * firstPart.split;
 
-      const ladderElement = firstPart.productPriceList.find(pl => pl.ladder >= amountNeeded);
-      const totalPrice = ladderElement?.usdPrice * amountNeeded;
+      const ladderElement = firstPart.productPriceList.find(
+        (pl) => pl.ladder >= amountNeeded
+      );
+      const totalPrice = parseFloat(
+        (ladderElement?.usdPrice * amountNeeded).toFixed(2)
+      );
       foundPart = {
         descr: firstPart?.productIntroEn,
         productCode: firstPart.productCode,
         PKG: firstPart.encapStandard,
         amountNeeded,
-        totalPrice
+        totalPrice,
       };
     }
     specsWithFoundParts.push({
