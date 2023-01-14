@@ -1150,7 +1150,7 @@
     (property "Value" "Conn_02x08_Counter_Clockwise" (id 1) (at 161.29 130.8099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 172.085 128.27 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" (id 2) (at 172.085 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 172.085 128.27 0)
@@ -1183,7 +1183,7 @@
     (property "Value" "Screw_Terminal_01x06" (id 1) (at 255.905 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 252.73 80.01 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal" (id 2) (at 252.73 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 252.73 80.01 0)
@@ -1206,7 +1206,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 255.27 120.0149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 252.73 117.475 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" (id 2) (at 252.73 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 252.73 117.475 0)
@@ -1335,7 +1335,7 @@
     (uuid ae3c1ce2-d60d-4c32-b4eb-1dde79f4bdfe)
     (property "Reference" "J3" (id 0) (at 170.815 47.625 90))
     (property "Value" "Conn_01x08_Male" (id 1) (at 170.815 50.165 90))
-    (property "Footprint" "" (id 2) (at 172.085 52.705 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal" (id 2) (at 172.085 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 172.085 52.705 0)
@@ -2086,34 +2086,34 @@
       (reference "D5") (unit 1) (value "SS54") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/0dd39886-6ed0-43ed-af54-4a02cc0bde41/cb03cf43-7e1c-43a2-ba6e-32a45eff3af1"
-      (reference "D6") (unit 1) (value "12V") (footprint "")
+      (reference "D6") (unit 1) (value "12V") (footprint "Diode_SMD:D_SMA-SMB_Universal_Handsoldering")
     )
     (path "/8f37bbe0-86b5-4d99-ba58-4681edf3128e/35669a2f-07ac-4db2-8f04-00da118a3291"
-      (reference "D7") (unit 1) (value "3.3") (footprint "")
+      (reference "D7") (unit 1) (value "3.3") (footprint "Diode_SMD:D_SMA-SMB_Universal_Handsoldering")
     )
     (path "/6b89ba24-3094-438d-a07a-020a470fc0fc/5a123376-3c89-45c9-a524-11cae3aa9129"
-      (reference "D8") (unit 1) (value "5V5") (footprint "")
+      (reference "D8") (unit 1) (value "5V5") (footprint "Diode_SMD:D_SMA-SMB_Universal_Handsoldering")
     )
     (path "/6b89ba24-3094-438d-a07a-020a470fc0fc/d317753d-946e-470e-aacc-0a2624c01bd4"
-      (reference "D9") (unit 1) (value "5V5") (footprint "")
+      (reference "D9") (unit 1) (value "5V5") (footprint "Diode_SMD:D_SMA-SMB_Universal_Handsoldering")
     )
     (path "/f0d3712c-d6bb-4e32-851a-ff1f073efd27/ab51780a-6f65-4a91-a973-5a050892e1dc"
       (reference "D10") (unit 1) (value "1N4007") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/27509945-1925-4d26-9dbb-7ec0ad9cee83"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x06") (footprint "")
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x06") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal")
     )
     (path "/0599421a-f0cb-4879-9da8-2ed04adba3ce/c0a1c66c-de6c-4624-85a0-87f1985b8000"
       (reference "J2") (unit 1) (value "RJ45_Abracon_ARJP11A-MASA-B-A-EMU2") (footprint "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal")
     )
     (path "/ae3c1ce2-d60d-4c32-b4eb-1dde79f4bdfe"
-      (reference "J3") (unit 1) (value "Conn_01x08_Male") (footprint "")
+      (reference "J3") (unit 1) (value "Conn_01x08_Male") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal")
     )
     (path "/13e0cb8f-9666-43d2-8c06-697a8626a70b"
-      (reference "J4") (unit 1) (value "Conn_02x08_Counter_Clockwise") (footprint "")
+      (reference "J4") (unit 1) (value "Conn_02x08_Counter_Clockwise") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical")
     )
     (path "/27d92684-0e95-4162-9fd0-80d1dbbea14a"
-      (reference "J_LATCH1") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J_LATCH1") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
     )
     (path "/f0d3712c-d6bb-4e32-851a-ff1f073efd27/8a73140d-6091-4dec-a2ce-8dcca6f37051"
       (reference "K1") (unit 1) (value "SRD-DC3V-SL-C") (footprint "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C")

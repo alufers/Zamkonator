@@ -2864,7 +2864,7 @@
     (property "Value" "12V" (id 1) (at 275.59 72.3899 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 273.05 71.12 0)
+    (property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" (id 2) (at 273.05 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 273.05 71.12 0)

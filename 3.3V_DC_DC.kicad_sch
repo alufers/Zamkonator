@@ -685,7 +685,7 @@
     (property "Value" "3.3" (id 1) (at 193.675 67.9449 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 191.135 66.675 0)
+    (property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" (id 2) (at 191.135 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 191.135 66.675 0)
