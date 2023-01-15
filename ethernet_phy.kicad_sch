@@ -2421,7 +2421,7 @@
     (property "Value" "S2303" (id 1) (at 75.565 56.515 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 86.36 57.785 0)
+    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering" (id 2) (at 86.36 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 86.36 57.785 0)

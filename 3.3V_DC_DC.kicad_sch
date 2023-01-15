@@ -824,7 +824,7 @@
     (uuid 9d4d8394-fa15-4d1e-85d7-ab67128b2992)
     (property "Reference" "L6" (id 0) (at 132.08 55.88 90))
     (property "Value" "SWPA6045S6R8MT" (id 1) (at 132.08 58.42 90))
-    (property "Footprint" "" (id 2) (at 136.525 53.975 0)
+    (property "Footprint" "SWPA6045S6R8MT:SWPA6045S6R8MT" (id 2) (at 136.525 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA6045S6R8MT_C57254.pdf" (id 3) (at 136.525 53.975 0)

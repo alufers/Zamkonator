@@ -420,7 +420,7 @@
     (uuid 8be517ba-7de0-424c-8bf1-88ceee2c8b95)
     (property "Reference" "X1" (id 0) (at 168.91 104.14 0))
     (property "Value" "S3D50.000000B20F30T" (id 1) (at 168.91 106.68 0))
-    (property "Footprint" "" (id 2) (at 164.465 105.41 0)
+    (property "Footprint" "project specific:XTAL_TSX-3225_16.0000MF18X-AC3" (id 2) (at 164.465 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209071730_Shenzhen-SCTF-Elec-S3D50-000000B20F30T_C387445.pdf" (id 3) (at 150.495 96.52 0)
