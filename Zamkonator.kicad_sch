@@ -1335,7 +1335,7 @@
     (uuid ae3c1ce2-d60d-4c32-b4eb-1dde79f4bdfe)
     (property "Reference" "J3" (id 0) (at 170.815 47.625 90))
     (property "Value" "Conn_01x08_Male" (id 1) (at 170.815 50.165 90))
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal" (id 2) (at 172.085 52.705 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" (id 2) (at 172.085 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 172.085 52.705 0)
@@ -2041,7 +2041,7 @@
       (reference "C26") (unit 1) (value "10u 16V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/8f37bbe0-86b5-4d99-ba58-4681edf3128e/9fe49712-d1e9-4612-8d45-64df3379aa1f"
-      (reference "C27") (unit 1) (value "220u 25V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C27") (unit 1) (value "220u 25V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder")
     )
     (path "/8f37bbe0-86b5-4d99-ba58-4681edf3128e/a5870b19-f323-437d-b9aa-beeddc624810"
       (reference "C28") (unit 1) (value "10u 16V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -2107,7 +2107,7 @@
       (reference "J2") (unit 1) (value "RJ45_Abracon_ARJP11A-MASA-B-A-EMU2") (footprint "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal")
     )
     (path "/ae3c1ce2-d60d-4c32-b4eb-1dde79f4bdfe"
-      (reference "J3") (unit 1) (value "Conn_01x08_Male") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal")
+      (reference "J3") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/13e0cb8f-9666-43d2-8c06-697a8626a70b"
       (reference "J4") (unit 1) (value "Conn_02x08_Counter_Clockwise") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical")
@@ -2265,7 +2265,7 @@
     (path "/6b89ba24-3094-438d-a07a-020a470fc0fc/a9288268-388f-4a5e-95f2-0c45f76e6d73"
       (reference "U8") (unit 2) (value "LTV-827S") (footprint "Package_DIP:SMDIP-8_W9.53mm")
     )
-    (path "/2418ed7a-6668-472e-9550-09c70e5c9c72/8be517ba-7de0-424c-8bf1-88ceee2c8b95"
+    (path "/2418ed7a-6668-472e-9550-09c70e5c9c72/a1bb4e35-f679-4c14-9be8-084bdaa69691"
       (reference "X1") (unit 1) (value "S3D50.000000B20F30T") (footprint "project specific:XTAL_TSX-3225_16.0000MF18X-AC3")
     )
   )
