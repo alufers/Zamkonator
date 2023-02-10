@@ -1335,7 +1335,7 @@
     (uuid ae3c1ce2-d60d-4c32-b4eb-1dde79f4bdfe)
     (property "Reference" "J3" (id 0) (at 170.815 47.625 90))
     (property "Value" "Conn_01x08_Male" (id 1) (at 170.815 50.165 90))
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" (id 2) (at 172.085 52.705 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" (id 2) (at 172.085 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 172.085 52.705 0)
@@ -2107,7 +2107,7 @@
       (reference "J2") (unit 1) (value "RJ45_Abracon_ARJP11A-MASA-B-A-EMU2") (footprint "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal")
     )
     (path "/ae3c1ce2-d60d-4c32-b4eb-1dde79f4bdfe"
-      (reference "J3") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/13e0cb8f-9666-43d2-8c06-697a8626a70b"
       (reference "J4") (unit 1) (value "Conn_02x08_Counter_Clockwise") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical")
