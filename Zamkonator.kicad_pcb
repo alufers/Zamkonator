@@ -6140,7 +6140,7 @@
   (gr_text "3.3V" (at 62.5 70.5) (layer "F.SilkS") (tstamp 80a3b447-641a-44a5-b626-7a60d459ce95)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "RT9400" (at 29.1 15.5 90) (layer "F.SilkS") (tstamp 8201f29c-e705-48eb-91a1-019e3982fe91)
+  (gr_text "RT9400" (at 31.5 20 90) (layer "F.SilkS") (tstamp 8201f29c-e705-48eb-91a1-019e3982fe91)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "REL" (at 59.5 70.5) (layer "F.SilkS") (tstamp a5fc25c3-9094-41cc-8837-d76cdff21321)
