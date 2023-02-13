@@ -1,5 +1,5 @@
-import * as kicadObjects from "./kicadObjects";
-import { parseSI } from "./util";
+import * as kicadObjects from "./kicadObjects.js";
+import { parseSI } from "./util.js";
 export enum PartType {
   Resistor = "resistor",
   Capacitor = "capacitor",

@@ -1,5 +1,5 @@
 import * as path from "path";
-import * from "fs/promises";
+import * as fs from "fs/promises";
 export abstract class KicadObject {
   abstract kind?: string;
   abstract toSex(): Array<any>;

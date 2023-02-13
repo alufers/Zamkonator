@@ -1,8 +1,8 @@
 // import fetch from "node-fetch";
-import { PartSpecification, PartType } from "./partSpecification";
-import { parseSI } from "./util";
+import { PartSpecification, PartType } from "./partSpecification.js";
+import { parseSI } from "./util.js";
 import * as fs from "fs/promises";
-import { ProductsSearchResponse } from "./lcscSchema";
+import { ProductsSearchResponse } from "./lcscSchema.js";
 
 export const lcscCategories = {
   [PartType.Resistor]: 439,

@@ -1,15 +1,17 @@
 import * as fs from "fs/promises";
-import * as kicadObjects from "./kicadObjects";
+import * as kicadObjects from "./kicadObjects.js";
 import {
   combineSamePartSpecifications,
   PartSpecification,
   symbolToPartSpecification,
-} from "./partSpecification";
-import { parseSI, removeFromObject } from "./util";
-import * as lcsc from "./lcsc";
+} from "./partSpecification.js";
+import { parseSI, removeFromObject } from "./util.js";
+import * as lcsc from "./lcsc.js";
 import * as docopt from "docopt";
 
-const parse = require("s-expression");
+// const parse = require("s-expression");
+
+import parse from "s-expression";
 
 const argv = docopt.docopt(
   `Usage: yageo [options] <input-schematic>
