@@ -78,6 +78,7 @@ export class KicadSchematic extends KicadObjectWithChildren {
   public paper?: string;
   public version?: string;
   public generator?: string;
+  public sourcePath?: string;
   toSex(): Array<any> {
     return [
       this.kind,

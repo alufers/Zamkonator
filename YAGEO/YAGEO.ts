@@ -21,6 +21,7 @@ Finds resistors, capacitors and electrolytic capacitors in the given KiCad schem
 Options:
   -p --preffered-package <package>  Comma separated list of packags for parts (e.g. 0603)
   -c --count <count>               How many boards you want to manufacture [default: 1]
+  -w --write                       Write the result to the schematic
 `,
   {
     version: "0.0.1",
@@ -40,6 +41,7 @@ Options:
       if (!(obj instanceof kicadObjects.KicadSchematic)) {
         throw new Error("Not a schematic, but a " + obj.kind);
       }
+      obj.sourcePath = path;
       return obj;
     },
   };
@@ -160,6 +162,7 @@ Options:
 
     s.originalSymbols.forEach((sym) => {
       const properties = sym.getProperties();
+      if(properties["LCSC"]) return;
       if (foundPart["productCode"]) {
         properties["LCSC"] = foundPart["productCode"];
       }
@@ -170,10 +173,18 @@ Options:
         properties["LCSC_Package"] = foundPart["PKG"];
       }
     });
+
+    if (argv["--write"]) {
+      for(let sheet of allSheets) {
+        // await sheet.save(inputFile);
+        console.log(sheet.toSex())
+      }
+    }
+
   }
   console.table(
     specsWithFoundParts.map((o) =>
-      removeFromObject(o, "originalSymbols", "type", "value")
+      removeFromObject(o, "originalSymbols", "descr", "type", "value")
     )
   );
 })();
