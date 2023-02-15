@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "project specific")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
   (lib (name "SWPA6045S6R8MT")(type "KiCad")(uri "${KIPRJMOD}/SWPA6045S6R8MT.pretty")(options "")(descr ""))
+  (lib (name "ethernet socket")(type "KiCad")(uri "${KIPRJMOD}/kicad_lceda.pretty")(options "")(descr ""))
 )
