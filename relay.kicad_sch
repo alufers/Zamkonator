@@ -1,641 +1,1694 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 21c8e362-e63c-4540-b191-ccdf7f11f9ec)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (id 1) (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Relay:SANYOU_SRD_Form_C" (in_bom yes) (on_board yes)
-      (property "Reference" "K" (id 0) (at 11.43 3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SANYOU_SRD_Form_C" (id 1) (at 11.43 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" (id 2) (at 11.43 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Single Pole Relay SPDT" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Sanyo SRD relay, Single Pole Miniature Power Relay," (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SANYOU_SRD_Form_C_0_0"
-        (polyline
-          (pts
-            (xy 7.62 5.08)
-            (xy 7.62 2.54)
-            (xy 6.985 3.175)
-            (xy 7.62 3.81)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "SANYOU_SRD_Form_C_0_1"
-        (rectangle (start -10.16 5.08) (end 10.16 -5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (rectangle (start -8.255 1.905) (end -1.905 -1.905)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -7.62 -1.905)
-            (xy -2.54 1.905)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 -1.905)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy -5.08 1.905)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 0)
-            (xy 0 0)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.905 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.175 0)
-            (xy 3.81 0)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -2.54)
-            (xy 3.175 3.81)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -2.54)
-            (xy 5.08 -5.08)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "SANYOU_SRD_Form_C_1_1"
-        (polyline
-          (pts
-            (xy 2.54 3.81)
-            (xy 3.175 3.175)
-            (xy 2.54 2.54)
-            (xy 2.54 5.08)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 -7.62 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 7.62 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 7.62 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 7.62 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Transistor_BJT:BCP56" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "BCP56" (id 1) (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 5.08 -1.905 0)
-        (effects (font (size 1.27 1.27) italic) (justify left) hide)
-      )
-      (property "Datasheet" "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "NPN Transistor" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?223*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "BCP56_0_1"
-        (polyline
-          (pts
-            (xy 0.635 0.635)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 -0.635)
-            (xy 2.54 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 1.905)
-            (xy 0.635 -1.905)
-            (xy 0.635 -1.905)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.778)
-            (xy 1.778 -1.27)
-            (xy 2.286 -2.286)
-            (xy 1.27 -1.778)
-            (xy 1.27 -1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-        (circle (center 1.27 0) (radius 2.8194)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "BCP56_1_1"
-        (pin input line (at -5.08 0 0) (length 5.715)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54) hide
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "pspice:DIODE" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (id 0) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "DIODE" (id 1) (at 0 -4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "simulation" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Diode symbol for simulation only. Pin order incompatible with official kicad footprints" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "DIODE_0_1"
-        (polyline
-          (pts
-            (xy 1.905 2.54)
-            (xy 1.905 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 2.54)
-            (xy -1.905 -2.54)
-            (xy 1.905 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-      )
-      (symbol "DIODE_1_1"
-        (pin input line (at -5.08 0 0) (length 3.81)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 5.08 0 180) (length 3.81)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 134.62 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid 2f8e93e9-478e-42af-8c38-13abc6fd7343)
-  )
-  (junction (at 134.62 95.885) (diameter 0) (color 0 0 0 0)
-    (uuid b50e4f08-5f70-40c9-b970-aa6e1c92dda2)
-  )
-
-  (wire (pts (xy 134.62 80.645) (xy 134.62 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 104073d8-997d-4592-b343-cd9050a827a7)
-  )
-  (wire (pts (xy 134.62 73.66) (xy 134.62 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 282d212b-6be1-4ea0-9c3c-aa8aa2a4e350)
-  )
-  (wire (pts (xy 154.94 95.885) (xy 154.94 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2da43ed8-e762-4dbb-8b9b-3de2dd51dcff)
-  )
-  (wire (pts (xy 162.56 70.485) (xy 162.56 78.74))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6430bf31-2267-40e8-bc98-47d93858b904)
-  )
-  (wire (pts (xy 177.8 99.695) (xy 165.1 99.695))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 64cd0967-ee71-4f35-8cbb-a1b4b8ba394e)
-  )
-  (wire (pts (xy 177.8 75.565) (xy 167.64 75.565))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6c91af40-15b6-4884-89d8-494fbdf788c2)
-  )
-  (wire (pts (xy 165.1 99.695) (xy 165.1 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 86d868b1-53d7-4f51-a5b3-a47509215cd3)
-  )
-  (wire (pts (xy 134.62 111.125) (xy 134.62 113.665))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 984b4bf6-2be8-49f2-836b-6f554768dfe4)
-  )
-  (wire (pts (xy 167.64 75.565) (xy 167.64 78.74))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid bba9aaf6-0be6-42dd-a65b-671c8d322d86)
-  )
-  (wire (pts (xy 134.62 95.885) (xy 134.62 100.965))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c133f0e8-5115-414c-95d6-a713ea65bf23)
-  )
-  (wire (pts (xy 177.8 70.485) (xy 162.56 70.485))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d046e20b-21e6-43c5-a49d-613e93878d77)
-  )
-  (wire (pts (xy 154.94 76.2) (xy 154.94 78.74))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d754fcbe-97ff-4809-bf40-1f3f62702741)
-  )
-  (wire (pts (xy 134.62 95.885) (xy 134.62 90.805))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e444df3e-f9f1-4d80-9fbd-e2d97d134c6d)
-  )
-  (wire (pts (xy 121.285 106.045) (xy 127 106.045))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e998d8eb-e344-4099-9630-d50cede3f35e)
-  )
-  (wire (pts (xy 154.94 95.885) (xy 134.62 95.885))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid eb99a92c-e01c-4ce4-99ce-beb800e0b799)
-  )
-  (wire (pts (xy 106.045 106.045) (xy 113.665 106.045))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f20c6982-8584-407a-8aae-568873c9458a)
-  )
-  (wire (pts (xy 134.62 76.2) (xy 154.94 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f5a7c638-6650-4eec-8ae4-2d17564543d2)
-  )
-
-  (hierarchical_label "C" (shape input) (at 177.8 99.695 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 28bdd359-afbf-4b5f-9123-73a3e6f695c1)
-  )
-  (hierarchical_label "RELAY_CONTROL" (shape input) (at 106.045 106.045 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4e5d3241-834b-4fd9-a831-e602b04c8069)
-  )
-  (hierarchical_label "NO" (shape input) (at 177.8 75.565 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 67c212b4-7d25-4b27-8964-da0ca4c363e0)
-  )
-  (hierarchical_label "NC" (shape input) (at 177.8 70.485 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6c7378db-e26c-4c40-8edd-5b7939fa7f22)
-  )
-
-  (symbol (lib_id "power:GND") (at 134.62 113.665 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 4877660c-8951-4eae-9ce8-ed90e82c215d)
-    (property "Reference" "#PWR066" (id 0) (at 134.62 120.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 134.62 118.11 0))
-    (property "Footprint" "" (id 2) (at 134.62 113.665 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 134.62 113.665 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 04e372c1-1495-4a3d-8b65-a6f9235c97ae))
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 134.62 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 88a599c7-e105-46fa-8902-fb5a85a29690)
-    (property "Reference" "#PWR065" (id 0) (at 134.62 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 134.62 68.58 0))
-    (property "Footprint" "" (id 2) (at 134.62 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 134.62 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 190f9eb2-cf0c-4c4e-9927-a7c6cfb3041d))
-  )
-
-  (symbol (lib_id "Relay:SANYOU_SRD_Form_C") (at 160.02 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 8a73140d-6091-4dec-a2ce-8dcca6f37051)
-    (property "Reference" "K1" (id 0) (at 172.085 85.0899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SRD-DC3V-SL-C" (id 1) (at 172.085 87.6299 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" (id 2) (at 171.45 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006281940_Ningbo-Songle-Relay-SRD-DC3V-SL-C_C688864.pdf" (id 3) (at 160.02 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C688864" (id 4) (at 160.02 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a8d33e5-cb4e-4ca7-9de7-3e6822c7425c))
-    (pin "2" (uuid 3b69e52d-a9a2-478b-b9de-22f309fdd80f))
-    (pin "3" (uuid 57da9dac-abdb-4f16-b814-b27df1836c06))
-    (pin "4" (uuid d0b4de3f-8742-43e1-90e0-e7f0e631a87b))
-    (pin "5" (uuid 6b83e606-a262-4d74-b84f-7f1346052fb0))
-  )
-
-  (symbol (lib_id "Transistor_BJT:BCP56") (at 132.08 106.045 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid a362ef97-a26f-4fe2-b7c9-a710f5397207)
-    (property "Reference" "Q1" (id 0) (at 137.16 104.7749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BCP56" (id 1) (at 137.16 107.3149 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 137.16 107.95 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007030435_Nexperia-BCP56F_C549595.pdf" (id 3) (at 132.08 106.045 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "LCSC" "C549595" (id 4) (at 132.08 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5bb559b3-e57f-4325-9823-224a4f5d7b6a))
-    (pin "2" (uuid 14860992-f266-4027-a462-22127996533c))
-    (pin "3" (uuid 8147c7ef-b2d3-464b-8c15-941d500066c2))
-    (pin "4" (uuid 63078031-01fc-43b4-8be6-d57303e059df))
-  )
-
-  (symbol (lib_id "pspice:DIODE") (at 134.62 85.725 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid ab51780a-6f65-4a91-a973-5a050892e1dc)
-    (property "Reference" "D10" (id 0) (at 138.43 84.4549 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "1N4007" (id 1) (at 138.43 86.9949 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Diode_SMD:D_SMA_Handsoldering" (id 2) (at 134.62 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2008281133_TWGMC-1N4007_C727081.pdf" (id 3) (at 134.62 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C727081" (id 4) (at 134.62 85.725 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 32043bcc-3324-4a24-8926-4f6599da7be2))
-    (pin "2" (uuid bfc4d1a8-a17c-4353-98c7-109b4d7dc830))
-  )
-
-  (symbol (lib_id "Device:R") (at 117.475 106.045 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid d10872cf-af0d-408f-8e61-76b9926c0591)
-    (property "Reference" "R32" (id 0) (at 117.475 99.695 90))
-    (property "Value" "R" (id 1) (at 117.475 102.235 90))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 117.475 107.823 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 117.475 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ec78330a-f727-4aee-a291-419c43354592))
-    (pin "2" (uuid 0dc15fa1-aa9e-415c-9532-672f9bf8da14))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "21c8e362-e63c-4540-b191-ccdf7f11f9ec")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relay:SANYOU_SRD_Form_C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SANYOU_SRD_Form_C"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Pole Relay SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_1_1"
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BCP56"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BCP56"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BCP56_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BCP56_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pspice:DIODE"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DIODE"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode symbol for simulation only. Pin order incompatible with official kicad footprints"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DIODE_0_1"
+				(polyline
+					(pts
+						(xy 1.905 2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 -2.54) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DIODE_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 134.62 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8e93e9-478e-42af-8c38-13abc6fd7343")
+	)
+	(junction
+		(at 134.62 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50e4f08-5f70-40c9-b970-aa6e1c92dda2")
+	)
+	(wire
+		(pts
+			(xy 134.62 80.645) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104073d8-997d-4592-b343-cd9050a827a7")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282d212b-6be1-4ea0-9c3c-aa8aa2a4e350")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.885) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da43ed8-e762-4dbb-8b9b-3de2dd51dcff")
+	)
+	(wire
+		(pts
+			(xy 162.56 70.485) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6430bf31-2267-40e8-bc98-47d93858b904")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.695) (xy 165.1 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cd0967-ee71-4f35-8cbb-a1b4b8ba394e")
+	)
+	(wire
+		(pts
+			(xy 177.8 75.565) (xy 167.64 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c91af40-15b6-4884-89d8-494fbdf788c2")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.695) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d868b1-53d7-4f51-a5b3-a47509215cd3")
+	)
+	(wire
+		(pts
+			(xy 134.62 111.125) (xy 134.62 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984b4bf6-2be8-49f2-836b-6f554768dfe4")
+	)
+	(wire
+		(pts
+			(xy 167.64 75.565) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba9aaf6-0be6-42dd-a65b-671c8d322d86")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.885) (xy 134.62 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c133f0e8-5115-414c-95d6-a713ea65bf23")
+	)
+	(wire
+		(pts
+			(xy 177.8 70.485) (xy 162.56 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d046e20b-21e6-43c5-a49d-613e93878d77")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d754fcbe-97ff-4809-bf40-1f3f62702741")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.885) (xy 134.62 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e444df3e-f9f1-4d80-9fbd-e2d97d134c6d")
+	)
+	(wire
+		(pts
+			(xy 121.285 106.045) (xy 127 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e998d8eb-e344-4099-9630-d50cede3f35e")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.885) (xy 134.62 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb99a92c-e01c-4ce4-99ce-beb800e0b799")
+	)
+	(wire
+		(pts
+			(xy 106.045 106.045) (xy 113.665 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20c6982-8584-407a-8aae-568873c9458a")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a7c638-6650-4eec-8ae4-2d17564543d2")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 177.8 99.695 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28bdd359-afbf-4b5f-9123-73a3e6f695c1")
+	)
+	(hierarchical_label "RELAY_CONTROL"
+		(shape input)
+		(at 106.045 106.045 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e5d3241-834b-4fd9-a831-e602b04c8069")
+	)
+	(hierarchical_label "NO"
+		(shape input)
+		(at 177.8 75.565 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67c212b4-7d25-4b27-8964-da0ca4c363e0")
+	)
+	(hierarchical_label "NC"
+		(shape input)
+		(at 177.8 70.485 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c7378db-e26c-4c40-8edd-5b7939fa7f22")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4877660c-8951-4eae-9ce8-ed90e82c215d")
+		(property "Reference" "#PWR066"
+			(at 134.62 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04e372c1-1495-4a3d-8b65-a6f9235c97ae")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/f0d3712c-d6bb-4e32-851a-ff1f073efd27"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 134.62 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88a599c7-e105-46fa-8902-fb5a85a29690")
+		(property "Reference" "#PWR065"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "190f9eb2-cf0c-4c4e-9927-a7c6cfb3041d")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/f0d3712c-d6bb-4e32-851a-ff1f073efd27"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_C")
+		(at 160.02 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a73140d-6091-4dec-a2ce-8dcca6f37051")
+		(property "Reference" "K1"
+			(at 172.085 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SRD-DC3V-SL-C"
+			(at 172.085 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006281940_Ningbo-Songle-Relay-SRD-DC3V-SL-C_C688864.pdf"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C688864"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a8d33e5-cb4e-4ca7-9de7-3e6822c7425c")
+		)
+		(pin "2"
+			(uuid "3b69e52d-a9a2-478b-b9de-22f309fdd80f")
+		)
+		(pin "3"
+			(uuid "57da9dac-abdb-4f16-b814-b27df1836c06")
+		)
+		(pin "4"
+			(uuid "d0b4de3f-8742-43e1-90e0-e7f0e631a87b")
+		)
+		(pin "5"
+			(uuid "6b83e606-a262-4d74-b84f-7f1346052fb0")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/f0d3712c-d6bb-4e32-851a-ff1f073efd27"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 132.08 106.045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a362ef97-a26f-4fe2-b7c9-a710f5397207")
+		(property "Reference" "Q1"
+			(at 137.16 104.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 137.16 107.3149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007030435_Nexperia-BCP56F_C549595.pdf"
+			(at 132.08 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C549595"
+			(at 132.08 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bb559b3-e57f-4325-9823-224a4f5d7b6a")
+		)
+		(pin "2"
+			(uuid "14860992-f266-4027-a462-22127996533c")
+		)
+		(pin "3"
+			(uuid "8147c7ef-b2d3-464b-8c15-941d500066c2")
+		)
+		(pin "4"
+			(uuid "63078031-01fc-43b4-8be6-d57303e059df")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/f0d3712c-d6bb-4e32-851a-ff1f073efd27"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:DIODE")
+		(at 134.62 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab51780a-6f65-4a91-a973-5a050892e1dc")
+		(property "Reference" "D10"
+			(at 138.43 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 138.43 86.9949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 134.62 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2008281133_TWGMC-1N4007_C727081.pdf"
+			(at 134.62 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727081"
+			(at 134.62 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32043bcc-3324-4a24-8926-4f6599da7be2")
+		)
+		(pin "2"
+			(uuid "bfc4d1a8-a17c-4353-98c7-109b4d7dc830")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/f0d3712c-d6bb-4e32-851a-ff1f073efd27"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 117.475 106.045 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d10872cf-af0d-408f-8e61-76b9926c0591")
+		(property "Reference" "R32"
+			(at 117.475 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 117.475 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 117.475 107.823 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.475 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.475 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec78330a-f727-4aee-a291-419c43354592")
+		)
+		(pin "2"
+			(uuid "0dc15fa1-aa9e-415c-9532-672f9bf8da14")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/f0d3712c-d6bb-4e32-851a-ff1f073efd27"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
