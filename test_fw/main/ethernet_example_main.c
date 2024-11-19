@@ -68,7 +68,13 @@ void app_main(void)
     // Initialize Ethernet driver
     uint8_t eth_port_cnt = 0;
     esp_eth_handle_t *eth_handles;
-    ESP_ERROR_CHECK(example_eth_init(&eth_handles, &eth_port_cnt));
+    esp_err_t ret = example_eth_init(&eth_handles, &eth_port_cnt);
+    if (ret != ESP_OK) {
+        ESP_LOGE(TAG, "Ethernet initialization failed");
+
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        esp_restart();
+    }
 
     // Initialize TCP/IP network interface aka the esp-netif (should be called only once in application)
     ESP_ERROR_CHECK(esp_netif_init());

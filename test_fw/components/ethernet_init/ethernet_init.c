@@ -70,6 +70,7 @@ static esp_eth_handle_t eth_init_internal(esp_eth_mac_t **mac_out, esp_eth_phy_t
     // Update PHY config based on board specific configuration
     phy_config.phy_addr = CONFIG_EXAMPLE_ETH_PHY_ADDR;
     phy_config.reset_gpio_num = CONFIG_EXAMPLE_ETH_PHY_RST_GPIO;
+    phy_config.reset_timeout_ms = 1000;
     // Init vendor specific MAC config to default
     eth_esp32_emac_config_t esp32_emac_config = ETH_ESP32_EMAC_DEFAULT_CONFIG();
     // Update vendor specific MAC config based on board configuration
