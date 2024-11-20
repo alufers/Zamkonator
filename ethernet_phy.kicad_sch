@@ -7518,7 +7518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2111021030_FOJAN-FRC0603J241-TS_C2907130.pdf"
+		(property "Datasheet" ""
 			(at 88.265 69.85 0)
 			(effects
 				(font
@@ -7976,7 +7976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.verical.com/datasheet/realtek-semiconductor-phy-rtl8201f-vb-cg-2635458.pdf"
+		(property "Datasheet" ""
 			(at 155.575 91.44 0)
 			(effects
 				(font
@@ -8368,7 +8368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021312_YAGEO-RC0603FR-0749R9L_C114625.pdf"
+		(property "Datasheet" ""
 			(at 95.885 118.11 0)
 			(effects
 				(font
@@ -8735,7 +8735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2111021030_FOJAN-FRC0603J241-TS_C2907130.pdf"
+		(property "Datasheet" ""
 			(at 88.265 74.93 0)
 			(effects
 				(font
@@ -8999,7 +8999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_lceda:RJ45-TH_HY931147C"
+		(property "Footprint" "project specific:RJ45-TH_HY931147C"
 			(at 29.845 114.935 0)
 			(effects
 				(font
@@ -9008,7 +9008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.szlcsc.com/product/details_92943.html"
+		(property "Datasheet" ""
 			(at 29.845 109.855 0)
 			(effects
 				(font
@@ -9037,15 +9037,6 @@
 		)
 		(property "uuid" "std:f7c1c3cfb5254655a18a1e7db5808191"
 			(at 29.845 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C356979"
-			(at 29.845 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2009171138_TAI-TECH-HCB1608KF-501T20_C356979.pdf"
+		(property "Datasheet" ""
 			(at 86.36 48.26 0)
 			(effects
 				(font
@@ -9958,7 +9949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004071010_MDD-Microdiode-Electronics--SM03_C502558.pdf"
+		(property "Datasheet" ""
 			(at 86.36 57.785 0)
 			(effects
 				(font

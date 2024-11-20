@@ -1842,7 +1842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+		(property "Datasheet" ""
 			(at 129.54 78.105 0)
 			(effects
 				(font
@@ -2519,7 +2519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+		(property "Datasheet" ""
 			(at 104.775 77.47 0)
 			(effects
 				(font
@@ -2681,7 +2681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+		(property "Datasheet" ""
 			(at 162.56 118.745 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+		(property "Datasheet" ""
 			(at 132.715 118.745 0)
 			(effects
 				(font

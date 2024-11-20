@@ -5429,7 +5429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2009171138_TAI-TECH-HCB1608KF-501T20_C356979.pdf"
+		(property "Datasheet" ""
 			(at 43.815 81.28 0)
 			(effects
 				(font
@@ -5860,7 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004140934_Slkor-SLKORMICRO-Elec--SS54_C513478.pdf"
+		(property "Datasheet" ""
 			(at 224.155 63.5 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091730_Sunlord-UPZ2012E601-2R0TF_C98308.pdf"
+		(property "Datasheet" ""
 			(at 262.89 63.5 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Slkor-SLKORMICRO-Elec--1N4148W_C444720.pdf"
+		(property "Datasheet" ""
 			(at 166.37 63.5 0)
 			(effects
 				(font
@@ -6462,7 +6462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811091923_Everlight-Elec-EL3H7-C-TA-G_C92243.pdf"
+		(property "Datasheet" ""
 			(at 187.96 127.635 0)
 			(effects
 				(font
@@ -6651,7 +6651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108241830_SILICON-LABS-SI3404-A-GMR_C461934.pdf"
+		(property "Datasheet" ""
 			(at 110.49 95.885 0)
 			(effects
 				(font
@@ -7437,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 228.6 126.365 90)
 			(effects
 				(font
@@ -7524,7 +7524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811082114_YAGEO-RC0603FR-0743KL_C137719.pdf"
+		(property "Datasheet" ""
 			(at 257.175 121.92 0)
 			(effects
 				(font
@@ -7957,15 +7957,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C356979"
-			(at 43.815 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5eac7114-018b-4752-9b8f-6f56c47d7bac")
 		)
@@ -7988,7 +7979,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "93410ed6-0cc0-4106-b683-430c67c0f5ae")
 		(property "Reference" "C15"
@@ -8150,7 +8141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809291522_Guangdong-Hottech-1N4148WS_C181133.pdf"
+		(property "Datasheet" ""
 			(at 180.34 73.66 0)
 			(effects
 				(font
@@ -8202,7 +8193,7 @@
 		(dnp no)
 		(uuid "9d0f5c28-5f34-4a22-8541-2e97b8407cce")
 		(property "Reference" "C18"
-			(at 167.64 50.8 0)
+			(at 168.91 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,8 +8201,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 168.91 53.34 0)
+		(property "Value" "100n 100V"
+			(at 168.91 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,6 +8229,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 174.625 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C696916"
 			(at 174.625 52.705 0)
 			(effects
 				(font
@@ -8297,7 +8297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209291730_TWGMC-SMDJ58A_C4154735.pdf"
+		(property "Datasheet" ""
 			(at 63.5 92.075 0)
 			(effects
 				(font
@@ -8376,7 +8376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811082124_YAGEO-RC0603FR-0711K3L_C137803.pdf"
+		(property "Datasheet" ""
 			(at 257.175 137.795 0)
 			(effects
 				(font
@@ -8584,7 +8584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "130K"
 			(at 160.02 54.6099 0)
 			(effects
 				(font
@@ -9041,7 +9041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091730_Sunlord-UPZ2012E601-2R0TF_C98308.pdf"
+		(property "Datasheet" ""
 			(at 262.89 78.74 0)
 			(effects
 				(font
@@ -9186,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AN431.pdf"
+		(property "Datasheet" ""
 			(at 208.915 142.24 0)
 			(effects
 				(font
@@ -9325,7 +9325,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1n 100V"
 			(at 216.535 125.095 90)
 			(effects
 				(font
@@ -9360,6 +9360,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C282513"
+			(at 216.535 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66a51ffa-ae81-4965-adfa-2213871fdf3f")
 		)
@@ -9382,7 +9391,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e9995cdb-f986-4ad6-ac80-52c53bb19ced")
 		(property "Reference" "R15"
@@ -9703,7 +9712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809211119_HANRUN-Zhongshan-HanRun-Elec-HR051142_C55680.pdf"
+		(property "Datasheet" ""
 			(at 201.93 83.82 0)
 			(effects
 				(font
@@ -9862,7 +9871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-FV31X102K202PXG_C363565.pdf"
+		(property "Datasheet" ""
 			(at 201.295 86.995 0)
 			(effects
 				(font

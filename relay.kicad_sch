@@ -1405,7 +1405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006281940_Ningbo-Songle-Relay-SRD-DC3V-SL-C_C688864.pdf"
+		(property "Datasheet" ""
 			(at 160.02 86.36 0)
 			(effects
 				(font
@@ -1495,7 +1495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007030435_Nexperia-BCP56F_C549595.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2007030435_Nexperia-BCP56F_C549595.pdf"
 			(at 132.08 106.045 0)
 			(effects
 				(font
@@ -1581,7 +1581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2008281133_TWGMC-1N4007_C727081.pdf"
+		(property "Datasheet" ""
 			(at 134.62 85.725 0)
 			(effects
 				(font

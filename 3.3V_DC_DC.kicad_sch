@@ -2030,7 +2030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810262207_XI-AN-Aerosemi-Tech-MT2492_C89358.pdf"
+		(property "Datasheet" ""
 			(at 106.045 62.865 0)
 			(effects
 				(font
@@ -2474,7 +2474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA6045S6R8MT_C57254.pdf"
+		(property "Datasheet" ""
 			(at 136.525 53.975 0)
 			(effects
 				(font

@@ -6018,15 +6018,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C918124"
-			(at 252.73 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c4014c87-7de2-4505-8ec1-cee755fb6540")
 		)
@@ -6169,15 +6160,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.335 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C918120"
 			(at 267.335 117.475 0)
 			(effects
 				(font

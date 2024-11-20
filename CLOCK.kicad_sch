@@ -1256,7 +1256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209071730_Shenzhen-SCTF-Elec-S3D50-000000B20F30T_C387445.pdf"
+		(property "Datasheet" ""
 			(at 150.495 96.52 0)
 			(effects
 				(font
