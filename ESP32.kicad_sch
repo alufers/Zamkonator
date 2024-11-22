@@ -1403,20 +1403,44 @@
 		(uuid "9f7c3e94-0880-4d30-a7d8-b36218cbd7e3")
 	)
 	(no_connect
-		(at 160.02 119.38)
-		(uuid "3d194949-cdb7-4ae3-90ba-013563d92336")
+		(at 129.54 96.52)
+		(uuid "1a15c883-f878-49c5-9007-7142f2b5b3b1")
 	)
 	(no_connect
-		(at 160.02 121.92)
-		(uuid "5b6374bf-0021-4034-bf40-fd84ab43ba2a")
+		(at 129.54 104.14)
+		(uuid "561e3f03-8b13-401a-a53c-af0fe1ff0c61")
 	)
 	(no_connect
 		(at 160.02 116.84)
 		(uuid "9ee41eef-220a-42eb-ba9b-888702df53dc")
 	)
 	(no_connect
+		(at 129.54 101.6)
+		(uuid "a52749b4-0d53-4af5-9a63-5cc3460389df")
+	)
+	(no_connect
+		(at 129.54 71.12)
+		(uuid "ceb6fd7c-cefa-4d24-b8a5-21bdf0a40106")
+	)
+	(no_connect
+		(at 129.54 93.98)
+		(uuid "d1415691-1f41-4bed-b5ad-7d25bff57f34")
+	)
+	(no_connect
+		(at 129.54 106.68)
+		(uuid "deeba336-83df-4de6-b32e-eda86f383a04")
+	)
+	(no_connect
 		(at 160.02 114.3)
 		(uuid "dfa34fa7-7491-4fbb-a71e-6a374d13528e")
+	)
+	(no_connect
+		(at 129.54 99.06)
+		(uuid "e384bbd2-e899-4fc6-b46b-0bd248f55ca8")
+	)
+	(no_connect
+		(at 129.54 68.58)
+		(uuid "e81dedc2-65e0-4f25-ab4e-342f196d2d41")
 	)
 	(wire
 		(pts
@@ -1630,6 +1654,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.195 121.92) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74db51ef-2913-4527-a8db-55c19fa907d8")
+	)
+	(wire
+		(pts
 			(xy 160.02 83.82) (xy 163.195 83.82)
 		)
 		(stroke
@@ -1637,6 +1671,16 @@
 			(type default)
 		)
 		(uuid "7895d935-223e-4cc0-8a5a-76d4df0da77c")
+	)
+	(wire
+		(pts
+			(xy 160.02 119.38) (xy 163.195 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9178e5aa-b891-424c-a6c5-ab15e4171063")
 	)
 	(wire
 		(pts
@@ -1791,6 +1835,18 @@
 		)
 		(uuid "ad4c383a-e4da-4bc1-a7d0-22b134179c60")
 	)
+	(hierarchical_label "IO34_INP"
+		(shape input)
+		(at 163.195 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ee4c302-4680-409b-9332-424274eaaeba")
+	)
 	(hierarchical_label "IO13"
 		(shape input)
 		(at 163.195 81.28 0)
@@ -1923,7 +1979,7 @@
 		)
 		(uuid "8feb4095-a6ed-44a2-9394-2de79d8ec5ed")
 	)
-	(hierarchical_label "EMAC_MDC"
+	(hierarchical_label "IO16"
 		(shape input)
 		(at 163.195 88.9 0)
 		(fields_autoplaced yes)
@@ -1946,6 +2002,18 @@
 			(justify left)
 		)
 		(uuid "a533810c-aeaf-4742-8380-8be4219e7533")
+	)
+	(hierarchical_label "IO35_INP"
+		(shape input)
+		(at 163.195 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3dcdd84-c335-4eef-810f-4064e58b9538")
 	)
 	(hierarchical_label "IO15"
 		(shape input)
@@ -1995,7 +2063,7 @@
 		)
 		(uuid "c6dff88a-7a80-4a57-a16a-c58b9e1a2c74")
 	)
-	(hierarchical_label "EMAC_MDIO"
+	(hierarchical_label "IO17"
 		(shape input)
 		(at 163.195 91.44 0)
 		(fields_autoplaced yes)

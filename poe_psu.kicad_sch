@@ -6651,7 +6651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/si3404-datasheet.pdf"
 			(at 110.49 95.885 0)
 			(effects
 				(font
@@ -7138,7 +7138,7 @@
 				)
 			)
 		)
-		(property "Value" "24.3 1%"
+		(property "Value" "24.3k 1%"
 			(at 81.28 92.075 90)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3016118"
+		(property "LCSC" "C276290"
 			(at 81.28 88.265 90)
 			(effects
 				(font

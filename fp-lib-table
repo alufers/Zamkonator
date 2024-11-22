@@ -1,5 +1,7 @@
 (fp_lib_table
+  (version 7)
   (lib (name "project specific")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
   (lib (name "SWPA6045S6R8MT")(type "KiCad")(uri "${KIPRJMOD}/SWPA6045S6R8MT.pretty")(options "")(descr ""))
   (lib (name "ethernet socket")(type "KiCad")(uri "${KIPRJMOD}/kicad_lceda.pretty")(options "")(descr ""))
+  (lib (name "panasonic_coil")(type "KiCad")(uri "${KIPRJMOD}/ETQ-P3M6R8KVP.pretty")(options "")(descr ""))
 )

@@ -5823,6 +5823,46 @@
 		(color 0 0 0 0)
 		(uuid "fe7160eb-45b2-4758-842c-0cf694e9d4df")
 	)
+	(no_connect
+		(at 177.165 59.69)
+		(uuid "10046c9c-00ee-4da9-83d3-e8797f4ce564")
+	)
+	(no_connect
+		(at 177.165 78.74)
+		(uuid "4ccc7513-5ef6-4ac0-8012-e6f8abb188f4")
+	)
+	(no_connect
+		(at 177.165 96.52)
+		(uuid "64cf60be-afeb-45f2-a324-b91a13c2afb6")
+	)
+	(no_connect
+		(at 177.165 74.93)
+		(uuid "6930b4d0-fb99-43b1-8941-8cdb970eebec")
+	)
+	(no_connect
+		(at 177.165 81.28)
+		(uuid "7865c6be-73ed-4709-ba47-387761bf042f")
+	)
+	(no_connect
+		(at 61.595 86.995)
+		(uuid "97ed8ea4-4aac-4bdc-88b4-38d239bac5dc")
+	)
+	(no_connect
+		(at 177.165 72.39)
+		(uuid "c9f0a6ed-39f3-4e84-8d9c-d98b5fd9ceff")
+	)
+	(no_connect
+		(at 177.165 93.98)
+		(uuid "ea71efa3-5661-49db-99d1-30a0657b4678")
+	)
+	(no_connect
+		(at 64.77 86.36)
+		(uuid "ee58b69d-b647-41b4-8515-39ee72509fab")
+	)
+	(no_connect
+		(at 177.165 57.15)
+		(uuid "f26779ec-3407-4828-afaa-92cbd3159434")
+	)
 	(wire
 		(pts
 			(xy 66.675 102.235) (xy 61.595 102.235)
@@ -7976,7 +8016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://file.elecfans.com/web1/M00/99/0F/o4YBAF0VytaAI7ezABH66fmIRIg854.pdf?filename=RTL8201F-VB-CG.pdf"
 			(at 155.575 91.44 0)
 			(effects
 				(font
@@ -8128,7 +8168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PHY_AVDD"
 			(at 114.3 45.085 0)
 			(effects
 				(font

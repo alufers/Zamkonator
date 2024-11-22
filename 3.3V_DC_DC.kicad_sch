@@ -2457,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Value" "SWPA6045S6R8MT"
+		(property "Value" "ETQP3M6R8KVP"
 			(at 132.08 58.42 90)
 			(effects
 				(font
@@ -2465,7 +2465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SWPA6045S6R8MT:SWPA6045S6R8MT"
+		(property "Footprint" "panasonic_coil:IND_PCC-M0530M-LP_PAN"
 			(at 136.525 53.975 0)
 			(effects
 				(font
@@ -2474,7 +2474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_PANASONIC-ETQP3M6R8KVP_C412311.pdf"
 			(at 136.525 53.975 0)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C57254"
+		(property "LCSC" "C412311"
 			(at 136.525 53.975 90)
 			(effects
 				(font
