@@ -93,6 +93,7 @@ void app_main(void)
         eth_netif_glues[0] = esp_eth_new_netif_glue(eth_handles[0]);
         // Attach Ethernet driver to TCP/IP stack
         ESP_ERROR_CHECK(esp_netif_attach(eth_netifs[0], eth_netif_glues[0]));
+        ESP_LOGI(TAG, "Ethernet interface created");
     } else {
         // Use ESP_NETIF_INHERENT_DEFAULT_ETH when multiple Ethernet interfaces are used and so you need to modify
         // esp-netif configuration parameters for each interface (name, priority, etc.).
@@ -124,6 +125,7 @@ void app_main(void)
 
     // Start Ethernet driver state machine
     for (int i = 0; i < eth_port_cnt; i++) {
+        ESP_LOGI(TAG, "Starting Ethernet port %d", i);
         ESP_ERROR_CHECK(esp_eth_start(eth_handles[i]));
     }
 
