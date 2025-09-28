@@ -3507,6 +3507,16 @@
 		)
 		(uuid "348ae672-1574-4c44-9c5e-3fe30a6f4ee8")
 	)
+	(text "burns out the \nPD chip if populated :/"
+		(exclude_from_sim no)
+		(at 185.42 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1ad3e3e-469e-450e-ac99-1cc4b5fa425b")
+	)
 	(junction
 		(at 92.71 60.96)
 		(diameter 0)
@@ -3646,12 +3656,6 @@
 		(uuid "504894cd-68aa-4946-a502-a99dbc2abfd4")
 	)
 	(junction
-		(at 166.37 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5643ba24-85eb-4f7d-8e4e-263d448e9c99")
-	)
-	(junction
 		(at 138.43 80.645)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3742,6 +3746,12 @@
 		(uuid "acf80a6a-3b39-476a-b264-9d31884a8328")
 	)
 	(junction
+		(at 166.37 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b81cca07-613b-4eba-9dba-d69d2864c2ff")
+	)
+	(junction
 		(at 257.175 130.175)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3791,7 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 43.18) (xy 187.96 60.96)
+			(xy 187.96 43.18) (xy 187.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3868,6 +3878,16 @@
 			(type default)
 		)
 		(uuid "14c676d6-270c-4a7a-a035-01573833939d")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ecc825-a2d7-4479-b5bc-6c2731d189ad")
 	)
 	(wire
 		(pts
@@ -4491,6 +4511,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 60.96) (xy 191.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781d5394-4f30-485f-a7ce-7c789a05e7d7")
+	)
+	(wire
+		(pts
 			(xy 257.175 130.175) (xy 257.175 130.81)
 		)
 		(stroke
@@ -4841,6 +4871,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc66824-cb4b-4e71-a1e5-5256c8ab542a")
+	)
+	(wire
+		(pts
 			(xy 257.175 130.81) (xy 257.175 133.985)
 		)
 		(stroke
@@ -4878,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "a1bbcad1-950c-4a6c-bcbf-4c212f294786")
+	)
+	(wire
+		(pts
+			(xy 185.42 68.58) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a365f340-7951-49f3-bb95-ed05432bfae6")
 	)
 	(wire
 		(pts
@@ -4948,16 +4998,6 @@
 			(type default)
 		)
 		(uuid "adf06f48-e7df-4ca8-ac33-838b6ddebea3")
-	)
-	(wire
-		(pts
-			(xy 187.96 60.96) (xy 191.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae297dc9-60d5-481a-b8a7-5d7a00e1227c")
 	)
 	(wire
 		(pts
@@ -5168,16 +5208,6 @@
 			(type default)
 		)
 		(uuid "d3b581d7-ffe0-4752-9960-c9eff8a64af4")
-	)
-	(wire
-		(pts
-			(xy 166.37 68.58) (xy 191.77 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c5ede3-ed96-4dc4-8843-06640dfd73e7")
 	)
 	(wire
 		(pts
@@ -8631,7 +8661,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c9ac08c-5bdd-4fbf-baf1-3b4c9d920b68")
 		(property "Reference" "D4"
 			(at 180.975 71.12 0)
