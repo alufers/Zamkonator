@@ -1646,15 +1646,15 @@
 			(uuid "ac9a9a9a-d5c6-497d-9b8d-19995628dc82")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/kicad_lceda.3dshapes/RJ45-TH_HY931147C.step"
+		(model "${KIPRJMOD}/3d_models/RJ45-TH_HY931147C.step"
 			(offset
-				(xyz -2.5 0 -3)
+				(xyz -2.25 0 6.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/kicad_lceda.3dshapes/RJ45-TH_HY931147C.wrl"
