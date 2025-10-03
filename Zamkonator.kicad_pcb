@@ -7784,7 +7784,7 @@
 		(descr "SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SSOP SO")
 		(property "Reference" "U10"
-			(at 0 -2.25 0)
+			(at 5.9845 0.629 0)
 			(layer "F.SilkS")
 			(uuid "faefb87e-dce3-4d7d-918d-9f51e0edb410")
 			(effects
@@ -8151,15 +8151,15 @@
 			(uuid "8c4d92f6-8b2a-4237-a69a-a68b8ce34621")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-4_4.4x2.6mm_P1.27mm.step"
+		(model "${KIPRJMOD}/3d_models/SSOP-4.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.25 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -12310,7 +12310,7 @@
 		(descr "SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SSOP SO")
 		(property "Reference" "U7"
-			(at 0 -2.25 180)
+			(at -5.4845 0.670333 180)
 			(layer "F.SilkS")
 			(uuid "a58193d8-356f-4dd5-8b58-25c09c796e4a")
 			(effects
@@ -12677,15 +12677,15 @@
 			(uuid "8979c92e-cbfe-465a-8ad0-ed325a55b89b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-4_4.4x2.6mm_P1.27mm.step"
+		(model "${KIPRJMOD}/3d_models/SSOP-4.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.25 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13231,7 +13231,7 @@
 		(descr "SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SSOP SO")
 		(property "Reference" "U8"
-			(at 0 -2.25 0)
+			(at 5.4845 0.604333 0)
 			(layer "F.SilkS")
 			(uuid "490d3a68-0581-4942-8bdb-9ca68f1e50e1")
 			(effects
@@ -13598,15 +13598,15 @@
 			(uuid "37fe3228-12f7-41bb-8c0a-b00b85b10b87")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-4_4.4x2.6mm_P1.27mm.step"
+		(model "${KIPRJMOD}/3d_models/SSOP-4.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.25 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15172,7 +15172,7 @@
 		(descr "SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SSOP SO")
 		(property "Reference" "U9"
-			(at 0 -2.25 180)
+			(at -5.4845 0.695 180)
 			(layer "F.SilkS")
 			(uuid "7035e213-05c2-4564-96ce-eb491c3f64a7")
 			(effects
@@ -15539,15 +15539,15 @@
 			(uuid "4c6affe5-7a93-4793-a527-2dc8a1fcb21d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-4_4.4x2.6mm_P1.27mm.step"
+		(model "${KIPRJMOD}/3d_models/SSOP-4.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.25 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -26000,15 +26000,15 @@
 			(uuid "ac8a3ced-dc60-45a6-815f-565154a6184c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-4_4.4x2.6mm_P1.27mm.step"
+		(model "${KIPRJMOD}/3d_models/SSOP-4.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.25 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
