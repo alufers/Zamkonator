@@ -279,53 +279,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EL3H7-G:EL3H7-G"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "Isolator:Optocoupler_DC_PhotoNPN_AKEC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.16 5.588 0)
+				(at -5.08 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "EL3H7-G"
-				(at -10.16 -7.62 0)
+			(property "Value" "Optocoupler_DC_PhotoNPN_AKEC"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOIC127P700X200-4N"
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -334,82 +331,28 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "ki_keywords" "NPN DC Optocoupler"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "EVERLIGHT"
+			(property "ki_fp_filters" "DIP*W7.62mm*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "2 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "EL3H7-G_0_0"
-				(polyline
-					(pts
-						(xy -10.16 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Optocoupler_DC_PhotoNPN_AKEC_0_1"
 				(rectangle
-					(start -10.16 -5.08)
-					(end 10.16 5.08)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -420,7 +363,19 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 1.27) (xy -5.08 1.27)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -432,7 +387,19 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 1.27) (xy -5.08 -1.27)
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -444,10 +411,10 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -1.27) (xy -5.08 -1.27)
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -456,10 +423,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 1.27) (xy -5.08 2.54)
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -468,10 +435,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 1.27) (xy -3.81 1.27)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -480,10 +447,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -1.27) (xy -5.08 -2.54)
+						(xy 2.54 0.635) (xy 4.445 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -492,31 +459,8 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -1.27) (xy -3.81 1.27)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -1.27) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.699 -2.032)
-					(end 5.461 2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -527,10 +471,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 7.62 -2.54)
+						(xy 4.445 2.54) (xy 5.08 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -539,120 +483,98 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 -1.397) (xy 7.366 -2.286) (xy 6.35 -1.778) (xy 6.985 -1.397)
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 5.08 0)
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 10.16 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 10.16 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "Optocoupler_DC_PhotoNPN_AKEC_1_1"
 				(pin passive line
-					(at -15.24 2.54 0)
-					(length 5.08)
+					(at -7.62 2.54 0)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -15.24 -2.54 0)
-					(length 5.08)
+					(at -7.62 -2.54 0)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 15.24 2.54 180)
-					(length 5.08)
+					(at 7.62 2.54 180)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 15.24 -2.54 180)
-					(length 5.08)
+					(at 7.62 -2.54 180)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -983,25 +905,25 @@
 		)
 	)
 	(junction
-		(at 140.97 135.89)
+		(at 140.97 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03c8fdbc-f234-4375-805f-09e4172d3a2b")
 	)
 	(junction
-		(at 114.3 133.35)
+		(at 114.3 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dc57af7-9eca-4b28-adbd-b557a1cc94df")
 	)
 	(junction
-		(at 87.63 130.81)
+		(at 87.63 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "330e8804-2196-4a3b-81bc-45ebb5b3f708")
 	)
 	(junction
-		(at 99.06 130.81)
+		(at 99.06 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c96083-7feb-42dd-9e05-d5eab14ac514")
@@ -1013,19 +935,19 @@
 		(uuid "601c957c-785f-4fce-b1f8-dd3e1b2c825b")
 	)
 	(junction
-		(at 129.54 133.35)
+		(at 129.54 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60c0ca54-0248-4595-9cbf-2a8fb2a1c99f")
 	)
 	(junction
-		(at 67.31 127)
+		(at 67.31 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9658e040-b1da-49bf-82a9-7f0dfea323aa")
 	)
 	(junction
-		(at 156.21 135.89)
+		(at 156.21 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a99f3506-0292-4472-aac1-21bf57691395")
@@ -1037,14 +959,14 @@
 		(uuid "c7a4aa35-207d-42ff-9e47-e5fbbce65190")
 	)
 	(junction
-		(at 57.15 124.46)
+		(at 57.15 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddfd43f9-ee52-4764-b04e-9093fb1d8df9")
 	)
 	(wire
 		(pts
-			(xy 140.97 135.89) (xy 140.97 139.7)
+			(xy 140.97 127) (xy 140.97 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1054,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 77.47) (xy 88.9 81.28)
+			(xy 88.9 81.28) (xy 88.9 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 130.81) (xy 87.63 123.19)
+			(xy 87.63 119.38) (xy 87.63 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1074,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 130.81) (xy 99.06 125.73)
+			(xy 99.06 119.38) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1084,17 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 140.97 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0a426a-cbf9-4754-911f-59e58774e104")
-	)
-	(wire
-		(pts
-			(xy 124.46 133.35) (xy 129.54 133.35)
+			(xy 124.46 124.46) (xy 129.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1104,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 133.35) (xy 114.3 137.16)
+			(xy 114.3 124.46) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 123.19) (xy 88.9 123.19)
+			(xy 87.63 111.76) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 130.81) (xy 99.06 130.81)
+			(xy 97.79 119.38) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1134,17 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 90.805) (xy 119.38 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3337723f-245d-4ad7-a2d8-ae64caf49b6f")
-	)
-	(wire
-		(pts
-			(xy 67.31 123.19) (xy 62.23 123.19)
+			(xy 67.31 114.3) (xy 62.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1056,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 128.27) (xy 146.05 128.27)
+			(xy 146.05 90.17) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398d3bc9-b502-4a7e-89ed-f8f02eae3bc6")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d350f48-f9b3-454a-b378-c7dda1f3f998")
+	)
+	(wire
+		(pts
+			(xy 156.21 119.38) (xy 146.05 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 133.35) (xy 129.54 142.24)
+			(xy 129.54 124.46) (xy 129.54 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 57.15 120.65)
+			(xy 57.15 115.57) (xy 57.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1184,17 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 146.05 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51976daf-4b8a-4729-9b1e-0fd12e2084de")
-	)
-	(wire
-		(pts
-			(xy 87.63 135.89) (xy 87.63 130.81)
+			(xy 87.63 124.46) (xy 87.63 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 147.32) (xy 140.97 151.13)
+			(xy 140.97 138.43) (xy 140.97 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.805) (xy 119.38 90.805)
+			(xy 124.46 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 123.19) (xy 62.23 120.65)
+			(xy 62.23 114.3) (xy 62.23 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 86.36) (xy 62.23 90.17)
+			(xy 62.23 92.71) (xy 62.23 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1254,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 128.27) (xy 156.21 135.89)
+			(xy 156.21 119.38) (xy 156.21 127)
 		)
 		(stroke
 			(width 0)
@@ -1264,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 128.27) (xy 146.05 123.19)
+			(xy 146.05 119.38) (xy 146.05 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1274,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 125.73) (xy 93.98 123.19)
+			(xy 93.98 114.3) (xy 93.98 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 135.89) (xy 99.06 130.81)
+			(xy 99.06 124.46) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 127) (xy 67.31 123.19)
+			(xy 67.31 118.11) (xy 67.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1324,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 78.74)
+			(xy 57.15 81.28) (xy 57.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 135.89) (xy 87.63 135.89)
+			(xy 85.09 124.46) (xy 87.63 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 119.38 125.73)
+			(xy 119.38 114.3) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1266,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 127) (xy 58.42 127)
+			(xy 57.15 118.11) (xy 58.42 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1364,13 +1276,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 124.46) (xy 57.15 124.46)
+			(xy 54.61 115.57) (xy 57.15 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f968838-5251-48fd-b5ab-4abf896a73d2")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.805) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21a7213-d11a-4a42-b236-4053e4585f0c")
 	)
 	(wire
 		(pts
@@ -1384,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 88.9) (xy 93.98 92.71)
+			(xy 93.98 92.71) (xy 93.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 133.35) (xy 116.84 133.35)
+			(xy 114.3 124.46) (xy 116.84 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1404,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 86.36) (xy 57.15 90.17)
+			(xy 57.15 92.71) (xy 57.15 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 132.08) (xy 67.31 127)
+			(xy 67.31 123.19) (xy 67.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1424,17 +1346,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 90.805) (xy 114.3 92.71)
+			(xy 140.97 90.17) (xy 140.97 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9a1a393-a5e1-456c-9284-75147b356875")
+		(uuid "b9781abb-93d1-4746-b86c-f318e93fd5e6")
 	)
 	(wire
 		(pts
-			(xy 99.06 125.73) (xy 93.98 125.73)
+			(xy 99.06 114.3) (xy 93.98 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1444,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 144.78) (xy 114.3 148.59)
+			(xy 114.3 135.89) (xy 114.3 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1454,7 +1376,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 114.3 133.35)
+			(xy 114.3 114.3) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1464,7 +1386,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 130.81) (xy 87.63 130.81)
+			(xy 90.17 119.38) (xy 87.63 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1474,7 +1396,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 135.89) (xy 143.51 135.89)
+			(xy 140.97 127) (xy 143.51 127)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1416,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 57.15 127)
+			(xy 57.15 115.57) (xy 57.15 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 135.89) (xy 156.21 135.89)
+			(xy 151.13 127) (xy 156.21 127)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 127) (xy 67.31 127)
+			(xy 66.04 118.11) (xy 67.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1534,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 123.19) (xy 140.97 135.89)
+			(xy 140.97 114.3) (xy 140.97 127)
 		)
 		(stroke
 			(width 0)
@@ -1544,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 135.89) (xy 156.21 146.05)
+			(xy 156.21 127) (xy 156.21 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 95.885) (xy 124.46 90.805)
+			(xy 124.46 101.6) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 92.71)
+			(xy 88.9 92.71) (xy 88.9 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1574,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 125.73) (xy 119.38 125.73)
+			(xy 129.54 116.84) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 133.35) (xy 129.54 125.73)
+			(xy 129.54 124.46) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1535,7 @@
 		(uuid "fe7d519f-b8dd-48d8-9ced-2ed3b3690238")
 	)
 	(label "EXT_PWR"
-		(at 85.09 135.89 180)
+		(at 85.09 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1623,7 +1545,7 @@
 		(uuid "9de1077f-8086-4db9-a50f-3cc5c63da643")
 	)
 	(label "EXT_PWR"
-		(at 54.61 124.46 180)
+		(at 54.61 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1634,7 +1556,7 @@
 	)
 	(hierarchical_label "READER_BUZZER"
 		(shape input)
-		(at 99.06 135.89 270)
+		(at 99.06 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1645,7 +1567,7 @@
 	)
 	(hierarchical_label "LED"
 		(shape input)
-		(at 57.15 74.93 90)
+		(at 57.15 81.28 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1667,7 +1589,7 @@
 	)
 	(hierarchical_label "READER_DAT0"
 		(shape input)
-		(at 140.97 151.13 270)
+		(at 140.97 142.24 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1678,7 +1600,7 @@
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
-		(at 88.9 77.47 90)
+		(at 88.9 81.28 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1700,7 +1622,7 @@
 	)
 	(hierarchical_label "READER_LED"
 		(shape input)
-		(at 67.31 132.08 270)
+		(at 67.31 123.19 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1711,7 +1633,7 @@
 	)
 	(hierarchical_label "READER_DAT1"
 		(shape input)
-		(at 114.3 148.59 270)
+		(at 114.3 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1722,7 +1644,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 82.55 0)
+		(at 57.15 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1730,7 +1652,7 @@
 		(dnp no)
 		(uuid "05f9375e-b850-4f6c-bac5-fc268818d422")
 		(property "Reference" "R26"
-			(at 51.054 80.772 0)
+			(at 51.054 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1661,7 @@
 			)
 		)
 		(property "Value" "140"
-			(at 51.054 83.312 0)
+			(at 51.054 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1670,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 55.372 82.55 90)
+			(at 55.372 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 82.55 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 82.55 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1697,7 @@
 			)
 		)
 		(property "LCSC" "C2974027"
-			(at 57.15 82.55 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,6 +1715,95 @@
 			(project ""
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
+		(at 143.51 106.68 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bc660f3-8aae-405c-b40f-daed4e93d410")
+		(property "Reference" "U8"
+			(at 148.59 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EL3H7-G"
+			(at 148.59 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92243"
+			(at 143.51 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88a93aed-006f-4561-9217-bd1d368d1de0")
+		)
+		(pin "1"
+			(uuid "60f7ad80-4d3d-49ef-8906-2b2f8f3b7488")
+		)
+		(pin "4"
+			(uuid "517446fc-0873-4a03-bd0b-5284b84b6871")
+		)
+		(pin "3"
+			(uuid "65758dde-6959-4a34-80f6-d5fd5178f772")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1865,136 +1876,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EL3H7-G:EL3H7-G")
-		(at 91.44 107.95 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "132424b6-482f-43d4-837c-ad16065eadf0")
-		(property "Reference" "U7"
-			(at 97.79 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "EL3H7-G"
-			(at 97.79 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "EVERLIGHT"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2 mm"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "7"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C92243"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1676ac8f-2ba6-4d7f-84bf-74b3fad74e3d")
-		)
-		(pin "2"
-			(uuid "e9075927-daef-4875-bdfa-3775fadfa3d9")
-		)
-		(pin "3"
-			(uuid "4f6f73e6-7ce4-483a-b2d0-0647545131da")
-		)
-		(pin "4"
-			(uuid "9bbfacc1-2c5e-4de2-b28e-28c7cc2282df")
-		)
-		(instances
-			(project "Zamkonator"
-				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND2")
-		(at 156.21 146.05 0)
+		(at 156.21 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2003,7 +1886,7 @@
 		(fields_autoplaced yes)
 		(uuid "19451010-3325-4fa8-8450-435f25975848")
 		(property "Reference" "#PWR07"
-			(at 156.21 152.4 0)
+			(at 156.21 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +1895,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 156.21 151.13 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +1903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 146.05 0)
+			(at 156.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 146.05 0)
+			(at 156.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +1921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 156.21 146.05 0)
+			(at 156.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,136 +1942,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EL3H7-G:EL3H7-G")
-		(at 59.69 105.41 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b6c25e2-e283-4788-855c-e5834c5f7427")
-		(property "Reference" "U9"
-			(at 66.04 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "EL3H7-G"
-			(at 66.04 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "EVERLIGHT"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2 mm"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "7"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C92243"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65a92471-248f-4e7f-97d4-8f19875d48d7")
-		)
-		(pin "2"
-			(uuid "370d9efe-b77f-4675-9606-6ce8cc953047")
-		)
-		(pin "3"
-			(uuid "c249b49b-1f62-43c4-a7a3-618de8ea506b")
-		)
-		(pin "4"
-			(uuid "75c72c95-f533-4c1c-949a-4f82896536e0")
-		)
-		(instances
-			(project "Zamkonator"
-				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 88.9 85.09 0)
+		(at 88.9 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2196,7 +1951,7 @@
 		(dnp no)
 		(uuid "4cb97972-1d76-4a73-9f8b-773a4e897e3e")
 		(property "Reference" "R27"
-			(at 82.55 83.82 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +1960,7 @@
 			)
 		)
 		(property "Value" "140"
-			(at 82.55 86.36 0)
+			(at 82.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +1969,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.122 85.09 90)
+			(at 87.122 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +1978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 85.09 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +1987,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 85.09 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +1996,7 @@
 			)
 		)
 		(property "LCSC" "C2974027"
-			(at 88.9 85.09 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2166,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 93.98 130.81 0)
+		(at 93.98 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2419,7 +2174,7 @@
 		(dnp no)
 		(uuid "53d8f442-af6c-4cca-8faa-cdf529ecab94")
 		(property "Reference" "D11"
-			(at 91.44 125.73 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2182,7 @@
 			)
 		)
 		(property "Value" "PESD15VL1BA"
-			(at 91.44 128.27 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2190,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 93.98 130.81 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 130.81 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 130.81 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2217,7 @@
 			)
 		)
 		(property "LCSC" "C18723438"
-			(at 93.98 130.81 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2242,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 120.65 133.35 180)
+		(at 120.65 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2495,7 +2250,7 @@
 		(dnp no)
 		(uuid "5a123376-3c89-45c9-a524-11cae3aa9129")
 		(property "Reference" "D8"
-			(at 120.65 130.556 0)
+			(at 120.65 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2258,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L1BA"
-			(at 120.65 128.016 0)
+			(at 120.65 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2266,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 120.65 133.35 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 133.35 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 133.35 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2293,7 @@
 			)
 		)
 		(property "LCSC" "C85380"
-			(at 120.65 133.35 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,8 +2317,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
+		(at 59.69 104.14 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66fe53ac-3810-42ca-94e1-2c08f0702a26")
+		(property "Reference" "U9"
+			(at 64.77 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EL3H7-G"
+			(at 64.77 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92243"
+			(at 59.69 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7fe1e3c-d5a0-41da-add8-819a09d8b8d4")
+		)
+		(pin "1"
+			(uuid "f23a88c0-904f-4cf1-b281-844a1bd3d8f0")
+		)
+		(pin "4"
+			(uuid "6267d549-81d5-4407-944a-52a9764b6383")
+		)
+		(pin "3"
+			(uuid "ffda500f-0094-470c-bb62-ebb5244b7a94")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 140.97 143.51 0)
+		(at 140.97 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2571,7 +2415,7 @@
 		(dnp no)
 		(uuid "6ed8bd89-132c-4bc6-a8fb-0f32f6832ceb")
 		(property "Reference" "R31"
-			(at 142.875 142.2399 0)
+			(at 142.875 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2424,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 142.875 144.7799 0)
+			(at 142.875 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2433,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 139.192 143.51 90)
+			(at 139.192 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 143.51 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 143.51 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2460,7 @@
 			)
 		)
 		(property "LCSC" "C5140972"
-			(at 140.97 143.51 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2485,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 129.54 142.24 0)
+		(at 129.54 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2650,7 +2494,7 @@
 		(fields_autoplaced yes)
 		(uuid "75cffa3c-390a-490d-9e21-ded8867e4eb5")
 		(property "Reference" "#PWR06"
-			(at 129.54 148.59 0)
+			(at 129.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2503,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 129.54 147.32 0)
+			(at 129.54 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 142.24 0)
+			(at 129.54 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 142.24 0)
+			(at 129.54 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2529,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 129.54 142.24 0)
+			(at 129.54 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,6 +2544,95 @@
 			(project ""
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
+		(at 116.84 106.68 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7db771d1-f00d-4621-9350-52ee7a9ee9c7")
+		(property "Reference" "U10"
+			(at 121.92 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EL3H7-G"
+			(at 121.92 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92243"
+			(at 116.84 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1797df06-e614-4085-ad69-43bd154b1f0b")
+		)
+		(pin "1"
+			(uuid "54bcc91c-d077-4480-9a6d-ca2cf85c97dd")
+		)
+		(pin "4"
+			(uuid "4552b5f7-d4e1-4bf4-9b12-057a0294e1b3")
+		)
+		(pin "3"
+			(uuid "6f869cc0-d6bb-4cdb-88d1-416236b3525c")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2786,7 +2719,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 86.36 180)
+		(at 62.23 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2795,7 +2728,7 @@
 		(fields_autoplaced yes)
 		(uuid "93324881-05bc-4666-9ea2-7374a6858ab7")
 		(property "Reference" "#PWR058"
-			(at 62.23 80.01 0)
+			(at 62.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 81.28 0)
+			(at 62.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 86.36 0)
+			(at 62.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 86.36 0)
+			(at 62.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 86.36 0)
+			(at 62.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,16 +2784,18 @@
 		)
 	)
 	(symbol
-		(lib_id "EL3H7-G:EL3H7-G")
-		(at 143.51 107.95 90)
+		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
+		(at 91.44 104.14 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a0b4bb76-6680-4a86-ad59-63d6ef0f5fb1")
-		(property "Reference" "U8"
-			(at 149.86 109.2201 90)
+		(fields_autoplaced yes)
+		(uuid "9e953281-888e-48d1-b032-f92a5bd48e2b")
+		(property "Reference" "U7"
+			(at 96.52 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +2804,7 @@
 			)
 		)
 		(property "Value" "EL3H7-G"
-			(at 149.86 106.6801 90)
+			(at 96.52 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,76 +2813,37 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 143.51 107.95 0)
+			(at 96.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 143.51 107.95 0)
+			(at 91.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 143.51 107.95 0)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 91.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "EVERLIGHT"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2 mm"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "7"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "LCSC" "C92243"
-			(at 143.51 107.95 0)
+			(at 91.44 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,22 +2851,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8a5abb89-b9a9-458d-8e6a-0122e9b67f86")
-		)
 		(pin "2"
-			(uuid "45355560-d80e-47ee-8b6a-065b089b3544")
+			(uuid "3eccdf83-f2f3-4efd-9c44-b6699fefe33e")
 		)
-		(pin "3"
-			(uuid "24e9d914-b20e-444b-a934-202d8f35d07b")
+		(pin "1"
+			(uuid "63c10c9a-e5db-4406-907c-020284a79928")
 		)
 		(pin "4"
-			(uuid "f7a3749d-adf3-4abe-8f7a-b1fc9d6323a4")
+			(uuid "ad80fbc7-97c7-4b1f-828a-f3b1c8cb41cc")
+		)
+		(pin "3"
+			(uuid "6498daa5-b8d6-4dfb-a201-1cb5df9c46b8")
 		)
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2978,7 +2874,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 140.97 0)
+		(at 114.3 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2986,7 +2882,7 @@
 		(dnp no)
 		(uuid "aa799ef4-1d5b-4468-9298-69bfcc0d380b")
 		(property "Reference" "R29"
-			(at 116.205 139.6999 0)
+			(at 116.205 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +2891,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 116.205 142.2399 0)
+			(at 116.205 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +2900,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 112.522 140.97 90)
+			(at 112.522 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +2909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 140.97 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +2918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 140.97 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +2927,7 @@
 			)
 		)
 		(property "LCSC" "C5140972"
-			(at 114.3 140.97 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,134 +2951,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EL3H7-G:EL3H7-G")
-		(at 116.84 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae613551-74ef-46f9-8eec-a33ebc63332f")
-		(property "Reference" "U10"
-			(at 123.19 109.2201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "EL3H7-G"
-			(at 123.19 106.6801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "EVERLIGHT"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2 mm"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "7"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C92243"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32f191d0-cc52-4604-8fa5-725efdc41dd1")
-		)
-		(pin "2"
-			(uuid "f7b76004-1f84-42cc-b740-934e160684a4")
-		)
-		(pin "3"
-			(uuid "221d5eeb-221c-4891-a1b3-cf6dc968f192")
-		)
-		(pin "4"
-			(uuid "f19af88c-173a-493c-b1de-2ee618a4357d")
-		)
-		(instances
-			(project "Zamkonator"
-				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
-		(at 62.23 127 0)
+		(at 62.23 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3190,7 +2960,7 @@
 		(dnp no)
 		(uuid "b5829be9-b7cd-4d5e-84db-f156b2d8a07c")
 		(property "Reference" "D12"
-			(at 60.96 130.302 0)
+			(at 60.96 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +2968,7 @@
 			)
 		)
 		(property "Value" "PESD15VL1BA"
-			(at 60.96 132.842 0)
+			(at 60.96 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +2976,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 62.23 127 0)
+			(at 62.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +2985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 127 0)
+			(at 62.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +2994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 127 0)
+			(at 62.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +3003,7 @@
 			)
 		)
 		(property "LCSC" "C18723438"
-			(at 62.23 127 0)
+			(at 62.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3094,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 88.9 180)
+		(at 93.98 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3333,7 +3103,7 @@
 		(fields_autoplaced yes)
 		(uuid "c034efc8-6229-4c73-8bb9-d07a4865070c")
 		(property "Reference" "#PWR055"
-			(at 93.98 82.55 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3112,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 83.82 0)
+			(at 93.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 88.9 0)
+			(at 93.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 88.9 0)
+			(at 93.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +3138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 88.9 0)
+			(at 93.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3160,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 147.32 135.89 180)
+		(at 147.32 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3398,7 +3168,7 @@
 		(dnp no)
 		(uuid "c9dc7bcb-233b-44d2-88bf-4d5df65c3074")
 		(property "Reference" "D9"
-			(at 147.32 132.842 0)
+			(at 147.32 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3176,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L1BA"
-			(at 147.32 130.302 0)
+			(at 147.32 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3184,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 147.32 135.89 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 135.89 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 135.89 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3211,7 @@
 			)
 		)
 		(property "LCSC" "C85380"
-			(at 147.32 135.89 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 95.885 0)
+		(at 124.46 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3474,7 +3244,7 @@
 		(dnp no)
 		(uuid "dca68966-adef-4dea-9233-ac77ea7bbc44")
 		(property "Reference" "#PWR060"
-			(at 124.46 102.235 0)
+			(at 124.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +3253,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.905 97.155 0)
+			(at 128.905 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 95.885 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 95.885 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 95.885 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
