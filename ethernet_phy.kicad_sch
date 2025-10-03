@@ -9171,7 +9171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project specific:RJ45-TH_HY931147C"
+		(property "Footprint" "project_footprints:RJ45-TH_HY931147C"
 			(at 279.4 124.46 0)
 			(effects
 				(font

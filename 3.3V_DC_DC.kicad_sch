@@ -2486,7 +2486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "panasonic_coil:IND_PCC-M0530M-LP_PAN"
+		(property "Footprint" "project_footprints:IND_PCC-M0530M-LP_PAN"
 			(at 136.525 53.975 0)
 			(effects
 				(font

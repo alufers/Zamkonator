@@ -6931,7 +6931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project specific:SOIC127P700X200-4N"
+		(property "Footprint" "project_footprints:SOIC127P700X200-4N"
 			(at 187.96 127.635 0)
 			(effects
 				(font
@@ -7120,7 +7120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project specific:QFN50P400X400X90-21N"
+		(property "Footprint" "project_footprints:QFN50P400X400X90-21N"
 			(at 110.49 95.885 0)
 			(effects
 				(font
@@ -10593,7 +10593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project specific:HR051142"
+		(property "Footprint" "project_footprints:HR051142"
 			(at 201.93 83.82 0)
 			(effects
 				(font

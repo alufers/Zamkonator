@@ -1893,7 +1893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project specific:SOIC127P700X200-4N"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -2087,7 +2087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project specific:SOIC127P700X200-4N"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 59.69 105.41 0)
 			(effects
 				(font
@@ -2877,7 +2877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project specific:SOIC127P700X200-4N"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 143.51 107.95 0)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project specific:SOIC127P700X200-4N"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 116.84 107.95 0)
 			(effects
 				(font

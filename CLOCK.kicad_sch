@@ -1271,7 +1271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project specific:XTAL_TSX-3225_16.0000MF18X-AC3"
+		(property "Footprint" "project_footprints:XTAL_TSX-3225_16.0000MF18X-AC3"
 			(at 170.815 105.41 0)
 			(effects
 				(font
