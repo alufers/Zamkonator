@@ -1263,7 +1263,7 @@
 				)
 			)
 		)
-		(property "Value" "S3D50.000000B20F30T"
+		(property "Value" "SX3M50.000M20F30TNN"
 			(at 164.465 104.14 0)
 			(effects
 				(font
@@ -1271,7 +1271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:XTAL_TSX-3225_16.0000MF18X-AC3"
+		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
 			(at 170.815 105.41 0)
 			(effects
 				(font
@@ -1280,7 +1280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209071730_Shenzhen-SCTF-Elec-S3D50-000000B20F30T_C387445.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2901592.pdf"
 			(at 150.495 96.52 0)
 			(effects
 				(font
@@ -1298,7 +1298,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C387445"
+		(property "LCSC" "C2901592"
 			(at 153.035 96.52 0)
 			(effects
 				(font
