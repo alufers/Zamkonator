@@ -5,149 +5,6 @@
 	(uuid "ffb6326c-cf27-46ed-8dfe-da340bff1b50")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AN431:AN431"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AN431"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AN431.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AN431_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.016) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AN431_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2262,6 +2119,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Reference_Voltage:TL431DBZ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TL431DBZ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+				(at 1.778 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt Regulator, SOT-23"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode device shunt regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL431DBZ_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TL431DBZ_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SI3404-A-GM:SI3404-A-GM"
 			(pin_names
 				(offset 1.016)
@@ -3644,10 +3670,10 @@
 		(uuid "8bc2fea0-e6b3-40b6-8808-79e46067b50b")
 	)
 	(junction
-		(at 208.915 129.54)
+		(at 208.28 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90cbfaad-f0f4-4a50-b3f4-a6c02e2e2542")
+		(uuid "999965cd-23e4-4a69-b36a-9fd34cae1232")
 	)
 	(junction
 		(at 136.525 116.205)
@@ -4087,6 +4113,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 129.54) (xy 212.09 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41507bbb-12ff-41ea-8d04-f3951b5c4360")
+	)
+	(wire
+		(pts
 			(xy 161.29 99.06) (xy 161.29 124.46)
 		)
 		(stroke
@@ -4154,16 +4190,6 @@
 			(type default)
 		)
 		(uuid "4c4ed318-fcc4-4a19-ace6-89459ab980ff")
-	)
-	(wire
-		(pts
-			(xy 211.455 142.24) (xy 234.95 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e89a1f0-e9a4-4ff5-ab1b-6414f3402db3")
 	)
 	(wire
 		(pts
@@ -4304,6 +4330,16 @@
 			(type default)
 		)
 		(uuid "68704d27-5192-4944-a79e-7bb5d0cef424")
+	)
+	(wire
+		(pts
+			(xy 210.82 142.24) (xy 234.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e75c95-df11-4f11-9595-e3f7d1bb8857")
 	)
 	(wire
 		(pts
@@ -4567,7 +4603,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 129.54) (xy 208.915 129.54)
+			(xy 194.31 129.54) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4837,16 +4873,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.915 129.54) (xy 212.09 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa666f5f-bb14-4d71-9cf4-08479920d931")
-	)
-	(wire
-		(pts
 			(xy 160.02 73.66) (xy 162.56 73.66)
 		)
 		(stroke
@@ -4907,7 +4933,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.915 144.78) (xy 208.915 147.32)
+			(xy 208.28 144.78) (xy 208.28 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5367,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.915 139.7) (xy 208.915 129.54)
+			(xy 208.28 139.7) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5792,7 +5818,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.915 147.32 0)
+		(at 208.28 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5801,7 +5827,7 @@
 		(fields_autoplaced yes)
 		(uuid "13788824-b85c-405a-9a8f-e45d8e33615c")
 		(property "Reference" "#PWR030"
-			(at 208.915 153.67 0)
+			(at 208.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.915 151.765 0)
+			(at 208.28 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.915 147.32 0)
+			(at 208.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.915 147.32 0)
+			(at 208.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.915 147.32 0)
+			(at 208.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,6 +8461,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Reference_Voltage:TL431DBZ")
+		(at 208.28 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f6b046-0771-4b21-9662-aefdd388a79b")
+		(property "Reference" "U4"
+			(at 205.74 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AN431"
+			(at 205.74 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 203.454 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AN431.pdf"
+			(at 199.136 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt Regulator, SOT-23"
+			(at 201.168 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97717"
+			(at 208.28 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d35a0909-a408-402c-a61a-7f3417dcd53b")
+		)
+		(pin "2"
+			(uuid "2de172b6-e41b-4349-9505-1a4280e6b16b")
+		)
+		(pin "1"
+			(uuid "b1b2ca89-5cc7-4ba8-b098-8dc92a34de94")
+		)
+		(instances
+			(project ""
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0dd39886-6ed0-43ed-af54-4a02cc0bde41"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 226.695 116.205 0)
 		(unit 1)
@@ -9746,88 +9856,6 @@
 			(project ""
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0dd39886-6ed0-43ed-af54-4a02cc0bde41"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AN431:AN431")
-		(at 208.915 142.24 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de94cd10-457d-4bae-b798-26d57d09467c")
-		(property "Reference" "U4"
-			(at 203.835 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AN431"
-			(at 203.835 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 208.915 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.915 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.915 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C97717"
-			(at 208.915 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c04e3c61-a9db-4385-9f07-ef16d878adc0")
-		)
-		(pin "2"
-			(uuid "9031d0e6-7ea2-403e-895a-6afaa9b89821")
-		)
-		(pin "3"
-			(uuid "f7912c1e-e17c-4b28-b243-fcef18421f30")
-		)
-		(instances
-			(project ""
-				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0dd39886-6ed0-43ed-af54-4a02cc0bde41"
-					(reference "U4")
 					(unit 1)
 				)
 			)
