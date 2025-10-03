@@ -2313,14 +2313,13 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "QFN50P400X400X90-21N"
+			(property "Footprint" "Package_DFN_QFN:MLF-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -2712,18 +2711,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "SI3404-A-GM_0_0"
 				(rectangle
-					(start -15.24 -17.78)
-					(end 15.24 17.78)
+					(start -15.24 17.78)
+					(end 15.24 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -6992,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:QFN50P400X400X90-21N"
+		(property "Footprint" "Package_DFN_QFN:MLF-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
 			(at 110.49 95.885 0)
 			(effects
 				(font
