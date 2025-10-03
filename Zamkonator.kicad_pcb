@@ -14867,7 +14867,7 @@
 			(uuid "bc0cf20b-15d6-42bd-9d41-00aeb5295d25")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm.step"
+		(model "${KIPRJMOD}/3d_models/Oscillator_3225.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14875,7 +14875,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
