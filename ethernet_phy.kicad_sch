@@ -7197,6 +7197,16 @@
 		)
 		(uuid "fa62e4b4-427a-46da-b576-e6c3dd16c8f9")
 	)
+	(label "PHY_AVDD"
+		(at 92.71 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2cbb569-156c-43e0-afe0-274cfb04e882")
+	)
 	(hierarchical_label "EMAC_TXD1"
 		(shape input)
 		(at 104.14 113.03 180)

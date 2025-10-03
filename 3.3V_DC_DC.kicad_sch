@@ -1886,7 +1886,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "PESD3V3L1BA"
 			(at 193.675 67.9449 90)
 			(effects
 				(font
@@ -1895,7 +1895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 191.135 66.675 0)
 			(effects
 				(font

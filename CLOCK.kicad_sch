@@ -268,265 +268,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Oscillator:XO32"
 			(pin_names
 				(offset 0.254)
@@ -921,20 +662,16 @@
 		)
 	)
 	(junction
+		(at 127 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0deec2-20e4-4bbe-a284-a0f3e5bd1230")
+	)
+	(junction
 		(at 134.62 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "944f29c7-0d70-4d21-a8f8-0039eba14926")
-	)
-	(wire
-		(pts
-			(xy 134.62 80.01) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0715936e-676f-464d-9344-78bebc74db68")
 	)
 	(wire
 		(pts
@@ -988,16 +725,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 127 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60943123-b8d7-4c33-91c5-41d39e29938c")
-	)
-	(wire
-		(pts
 			(xy 188.595 100.33) (xy 188.595 103.505)
 		)
 		(stroke
@@ -1018,27 +745,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 72.39)
+			(xy 127 107.95) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9863e625-a987-4dd1-a131-c5138ddefd1d")
+		(uuid "754608c3-e29d-4661-8c15-977a51eca23a")
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 134.62 92.71)
+			(xy 127 96.52) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3a4965b-b536-45bb-8a16-ec185fb0220c")
+		(uuid "99fe1bc4-876a-40aa-86a2-a37f78bf6fc7")
 	)
 	(wire
 		(pts
-			(xy 127.635 96.52) (xy 134.62 96.52)
+			(xy 118.11 96.52) (xy 127 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1058,23 +785,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 142.24 76.2)
+			(xy 127 96.52) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbe6f544-c2a3-4094-95bd-6c6571831067")
-	)
-	(wire
-		(pts
-			(xy 127 76.2) (xy 129.54 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf4be127-14ef-44b1-a417-3a5089f4f58c")
+		(uuid "d2c83efc-8560-4ef5-9737-edb35530c924")
 	)
 	(wire
 		(pts
@@ -1099,7 +816,7 @@
 	)
 	(hierarchical_label "CLK_EN"
 		(shape input)
-		(at 127.635 96.52 180)
+		(at 118.11 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1321,7 +1038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 80.01 0)
+		(at 127 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1330,7 +1047,7 @@
 		(fields_autoplaced yes)
 		(uuid "733f8b5c-1d23-4df1-b902-6683620d9af2")
 		(property "Reference" "#PWR08"
-			(at 127 86.36 0)
+			(at 127 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 85.09 0)
+			(at 127 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 80.01 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 80.01 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1082,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 80.01 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,16 +1170,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 88.9 0)
+		(at 127 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85b1988e-61af-4070-9d7c-35306bf5afec")
 		(property "Reference" "R24"
-			(at 137.16 87.6299 0)
+			(at 120.396 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1187,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.16 90.1699 0)
+			(at 120.396 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1196,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.842 88.9 90)
+			(at 125.222 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 88.9 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 88.9 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1223,7 @@
 			)
 		)
 		(property "LCSC" "C2930027"
-			(at 134.62 88.9 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,143 +1241,6 @@
 			(project ""
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/2418ed7a-6668-472e-9550-09c70e5c9c72"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 142.24 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a2e06ad-6d38-494b-9d20-5133d953dd26")
-		(property "Reference" "#PWR049"
-			(at 142.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 142.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "174bcab4-df82-4100-b764-5371958a7223")
-		)
-		(instances
-			(project ""
-				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/2418ed7a-6668-472e-9550-09c70e5c9c72"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 134.62 76.2 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0bf32f5-42b0-4d49-a90c-ce9fc8a51eb3")
-		(property "Reference" "JP3"
-			(at 134.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CLK_EN pull"
-			(at 134.62 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5316d420-d0f8-4917-93bf-a2e65ca0aeab")
-		)
-		(pin "2"
-			(uuid "e26af14a-be0f-48d1-82ce-7e66ff73ca9f")
-		)
-		(pin "3"
-			(uuid "d14629e5-a5b6-41d6-8707-7e0dd5745479")
-		)
-		(instances
-			(project ""
-				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/2418ed7a-6668-472e-9550-09c70e5c9c72"
-					(reference "JP3")
 					(unit 1)
 				)
 			)

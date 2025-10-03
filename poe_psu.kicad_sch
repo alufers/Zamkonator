@@ -6941,7 +6941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
 			(at 187.96 127.635 0)
 			(effects
 				(font
@@ -9401,7 +9401,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "PESD15VL1BA"
 			(at 275.59 72.3899 90)
 			(effects
 				(font
@@ -9410,7 +9410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 273.05 71.12 0)
 			(effects
 				(font
@@ -9430,6 +9430,15 @@
 		)
 		(property "Description" ""
 			(at 273.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18723438"
+			(at 273.05 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
