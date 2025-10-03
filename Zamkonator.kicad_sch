@@ -8666,7 +8666,7 @@
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card_Det1"
+		(property "Value" "XKTF-N02-N"
 			(at 240.792 160.274 0)
 			(effects
 				(font
@@ -8674,7 +8674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
+		(property "Footprint" "project_footprints:TF-SMD_XKTF-N02-N"
 			(at 292.735 124.46 0)
 			(effects
 				(font
@@ -8683,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810301220_HRS-Hirose-DM3AT-SF-PEJM5_C114218.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C381084.pdf"
 			(at 240.665 139.7 0)
 			(effects
 				(font
@@ -8701,7 +8701,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C114218"
+		(property "LCSC" "C381084"
 			(at 240.665 142.24 0)
 			(effects
 				(font
