@@ -911,6 +911,12 @@
 		(uuid "03c8fdbc-f234-4375-805f-09e4172d3a2b")
 	)
 	(junction
+		(at 173.99 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "281332f2-3a40-4972-8e6e-1eb9d5f234dd")
+	)
+	(junction
 		(at 114.3 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -941,6 +947,12 @@
 		(uuid "60c0ca54-0248-4595-9cbf-2a8fb2a1c99f")
 	)
 	(junction
+		(at 173.99 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e5ebe0-119d-4a99-a167-0961232764e9")
+	)
+	(junction
 		(at 67.31 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -957,6 +969,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7a4aa35-207d-42ff-9e47-e5fbbce65190")
+	)
+	(junction
+		(at 189.23 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dae80292-358e-4682-b6fa-28258ec20f3f")
 	)
 	(junction
 		(at 57.15 115.57)
@@ -983,6 +1001,16 @@
 			(type default)
 		)
 		(uuid "0339a4ef-0f21-4408-95d7-15b311547c83")
+	)
+	(wire
+		(pts
+			(xy 173.99 125.73) (xy 173.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082f7061-668e-4905-bf40-cef776005cec")
 	)
 	(wire
 		(pts
@@ -1046,6 +1074,36 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 137.16) (xy 173.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c035b4-5047-418a-9d7b-a9ca908922fc")
+	)
+	(wire
+		(pts
+			(xy 173.99 125.73) (xy 176.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354be45f-2359-484a-a0f9-8cf214b06ea2")
+	)
+	(wire
+		(pts
+			(xy 173.99 113.03) (xy 173.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35707d95-6365-4ffb-8e46-c77ba12cabac")
+	)
+	(wire
+		(pts
 			(xy 67.31 114.3) (xy 62.23 114.3)
 		)
 		(stroke
@@ -1063,6 +1121,16 @@
 			(type default)
 		)
 		(uuid "398d3bc9-b502-4a7e-89ed-f8f02eae3bc6")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8c72ca-4343-4cd6-b939-5b9844e54088")
 	)
 	(wire
 		(pts
@@ -1086,6 +1154,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 125.73) (xy 189.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4330fcd0-3c17-463b-a824-019979913fd6")
+	)
+	(wire
+		(pts
 			(xy 129.54 124.46) (xy 129.54 133.35)
 		)
 		(stroke
@@ -1103,6 +1181,16 @@
 			(type default)
 		)
 		(uuid "4bd818d2-e448-4070-b063-abb1b26480ac")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.185) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565435f6-b831-4355-9493-6ea05e7c94bf")
 	)
 	(wire
 		(pts
@@ -1156,6 +1244,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 118.11) (xy 189.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6234ed58-19b6-4e4a-8f90-469c98817745")
+	)
+	(wire
+		(pts
 			(xy 62.23 92.71) (xy 62.23 96.52)
 		)
 		(stroke
@@ -1183,6 +1281,16 @@
 			(type default)
 		)
 		(uuid "7301b8c2-aea1-4e35-ba8f-902a6f365ce0")
+	)
+	(wire
+		(pts
+			(xy 184.15 93.98) (xy 184.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7327fbc9-f14e-4353-9614-9365b5ab69b9")
 	)
 	(wire
 		(pts
@@ -1233,6 +1341,16 @@
 			(type default)
 		)
 		(uuid "93e4ba1d-6430-47b9-818e-e0af99f76bf1")
+	)
+	(wire
+		(pts
+			(xy 184.15 125.73) (xy 189.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cd9ea4-4f7c-4f73-b94a-04096be5370f")
 	)
 	(wire
 		(pts
@@ -1306,6 +1424,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 118.11) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47133e4-f248-479b-926f-20c6034cfefb")
+	)
+	(wire
+		(pts
 			(xy 93.98 92.71) (xy 93.98 96.52)
 		)
 		(stroke
@@ -1336,6 +1464,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 118.11) (xy 179.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b018ab03-88d0-49fb-8016-7577f570bd08")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23b4d23-960e-4d9c-be87-77b3f3e63527")
+	)
+	(wire
+		(pts
 			(xy 67.31 123.19) (xy 67.31 118.11)
 		)
 		(stroke
@@ -1353,6 +1501,16 @@
 			(type default)
 		)
 		(uuid "b9781abb-93d1-4746-b86c-f318e93fd5e6")
+	)
+	(wire
+		(pts
+			(xy 173.99 88.9) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a3e244-dc0d-4269-804a-3a4e083fa9c4")
 	)
 	(wire
 		(pts
@@ -1376,6 +1534,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 88.9) (xy 179.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c319c25f-3af6-413a-a3dd-d6b31980ea62")
+	)
+	(wire
+		(pts
 			(xy 114.3 114.3) (xy 114.3 124.46)
 		)
 		(stroke
@@ -1383,6 +1551,16 @@
 			(type default)
 		)
 		(uuid "ca600aaf-0509-4ea7-bf61-84b02981e8b9")
+	)
+	(wire
+		(pts
+			(xy 173.99 73.66) (xy 173.99 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac37123-35b4-4361-b72e-0e06e5067084")
 	)
 	(wire
 		(pts
@@ -1565,6 +1743,17 @@
 		)
 		(uuid "2cf6c216-8e6f-4b76-bb9c-973dcd6a21f9")
 	)
+	(hierarchical_label "AUX_INP_12V"
+		(shape input)
+		(at 173.99 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36005d2c-6ea4-4a25-a10c-4d4af00e1ace")
+	)
 	(hierarchical_label "LED"
 		(shape input)
 		(at 57.15 81.28 90)
@@ -1630,6 +1819,17 @@
 			(justify right)
 		)
 		(uuid "a06c5b34-36be-4a27-8dbd-9b1a1a9e9e3b")
+	)
+	(hierarchical_label "AUX_INP_INV"
+		(shape input)
+		(at 171.45 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c65c80df-0aee-4e53-95a0-62fc062bd56f")
 	)
 	(hierarchical_label "READER_DAT1"
 		(shape input)
@@ -1723,34 +1923,32 @@
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
 		(at 143.51 106.68 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0bc660f3-8aae-405c-b40f-daed4e93d410")
 		(property "Reference" "U8"
-			(at 148.59 105.4099 90)
+			(at 138.43 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "EL3H7-G"
-			(at 148.59 107.9499 90)
+			(at 138.43 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 148.59 101.6 0)
+			(at 148.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,6 +2134,171 @@
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "220a37a3-a83b-47b9-917a-7ffe16dab0f5")
+		(property "Reference" "R39"
+			(at 175.895 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 175.895 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.212 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907172"
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62596c15-65d0-446d-a2c0-faf7f9759b15")
+		)
+		(pin "2"
+			(uuid "042cfbe7-99d1-491f-9fe1-a0b149bd6f86")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
+		(at 176.53 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cf913d7-adfe-4f92-9013-1559dff599ea")
+		(property "Reference" "U11"
+			(at 171.45 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EL3H7-G"
+			(at 171.45 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92243"
+			(at 176.53 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c95cc11f-bbca-4f3d-9e49-9322c80667b0")
+		)
+		(pin "1"
+			(uuid "9f35aacc-5052-4f2a-baa5-f4c628d3246c")
+		)
+		(pin "4"
+			(uuid "47f2275e-d9ed-4f74-b91e-8efd1b094d99")
+		)
+		(pin "3"
+			(uuid "8ed657b0-c21e-4c4e-a3fb-767271f6383b")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -2406,6 +2769,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 189.23 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8169fe-a986-4812-a751-0d20f89c67c5")
+		(property "Reference" "#PWR085"
+			(at 189.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 189.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b1ee9ae-a73c-4394-ad7a-b99fda754bfa")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 140.97 134.62 0)
 		(unit 1)
@@ -2552,34 +2981,32 @@
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
 		(at 116.84 106.68 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7db771d1-f00d-4621-9350-52ee7a9ee9c7")
 		(property "Reference" "U10"
-			(at 121.92 105.4099 90)
+			(at 111.76 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "EL3H7-G"
-			(at 121.92 107.9499 90)
+			(at 111.76 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 121.92 101.6 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,6 +3139,72 @@
 			(project ""
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 173.99 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81f8e3d3-007f-4a7c-b16d-e734b23a1d55")
+		(property "Reference" "#PWR061"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 173.99 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90d8a3a-925a-4ff6-ba67-1c09e83a6b51")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3236,6 +3729,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 184.15 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d38b90a0-52bc-487f-b834-6b9c13048e5e")
+		(property "Reference" "#PWR064"
+			(at 184.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c127a824-2781-4db4-b831-9e2895d63355")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 124.46 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3294,6 +3853,161 @@
 			(project ""
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 180.34 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e203a79a-9b61-4257-8c18-847d90805783")
+		(property "Reference" "D14"
+			(at 180.34 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V0L1BA"
+			(at 180.34 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85380"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6300384e-4a94-42ad-a98d-670f43def7d2")
+		)
+		(pin "2"
+			(uuid "c7f485b2-dd76-4e23-a63f-320a24406e10")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee573401-64a1-4775-be98-eaf5d1eda710")
+		(property "Reference" "R38"
+			(at 176.53 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 176.53 80.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.212 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2930027"
+			(at 173.99 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d57b473c-8fcb-478b-923d-f16906657346")
+		)
+		(pin "2"
+			(uuid "245f9897-c1d8-40e0-924d-df9dfb15bbe5")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "R38")
 					(unit 1)
 				)
 			)
