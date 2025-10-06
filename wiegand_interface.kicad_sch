@@ -1024,6 +1024,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 137.16) (xy 173.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bebc667-946d-4053-ba0c-19a741ec40ce")
+	)
+	(wire
+		(pts
 			(xy 99.06 119.38) (xy 99.06 114.3)
 		)
 		(stroke
@@ -1071,16 +1081,6 @@
 			(type default)
 		)
 		(uuid "3153a406-bd8e-463c-b134-84cc4e14f251")
-	)
-	(wire
-		(pts
-			(xy 173.99 137.16) (xy 173.99 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c035b4-5047-418a-9d7b-a9ca908922fc")
 	)
 	(wire
 		(pts
@@ -1154,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 125.73) (xy 189.23 135.89)
+			(xy 189.23 125.73) (xy 189.23 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1743,9 +1743,9 @@
 		)
 		(uuid "2cf6c216-8e6f-4b76-bb9c-973dcd6a21f9")
 	)
-	(hierarchical_label "AUX_INP_12V"
+	(hierarchical_label "AUX_INP_GND"
 		(shape input)
-		(at 173.99 140.97 270)
+		(at 189.23 146.05 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,6 +1819,17 @@
 			(justify right)
 		)
 		(uuid "a06c5b34-36be-4a27-8dbd-9b1a1a9e9e3b")
+	)
+	(hierarchical_label "AUX_INP_12V"
+		(shape input)
+		(at 173.99 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba24ba9c-85ea-4455-9863-8fbcf5f78a2b")
 	)
 	(hierarchical_label "AUX_INP_INV"
 		(shape input)
@@ -2763,72 +2774,6 @@
 			(project ""
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 189.23 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d8169fe-a986-4812-a751-0d20f89c67c5")
-		(property "Reference" "#PWR085"
-			(at 189.23 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 189.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 189.23 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b1ee9ae-a73c-4394-ad7a-b99fda754bfa")
-		)
-		(instances
-			(project "Zamkonator"
-				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
