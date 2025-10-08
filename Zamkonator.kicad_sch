@@ -5174,6 +5174,12 @@
 		(uuid "634fb5f2-81fe-4c49-82b5-03fc06e117e4")
 	)
 	(junction
+		(at 247.65 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04df5516-fe22-46bc-a395-4846ce9ee59e")
+	)
+	(junction
 		(at 137.16 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5220,12 +5226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92f10edb-2550-49e1-b63a-c239094f7c7f")
-	)
-	(junction
-		(at 234.95 56.515)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "968e086a-dc69-4f7e-8c1e-347aafc90b18")
 	)
 	(junction
 		(at 92.075 82.55)
@@ -5385,6 +5385,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 53.34) (xy 247.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dea32fa-3c80-4c62-b2a3-fbe26dfc4566")
+	)
+	(wire
+		(pts
 			(xy 241.3 68.58) (xy 251.46 68.58)
 		)
 		(stroke
@@ -5432,6 +5442,16 @@
 			(type default)
 		)
 		(uuid "1487131e-088a-4e8e-bd3c-8b8d6775c305")
+	)
+	(wire
+		(pts
+			(xy 242.57 52.07) (xy 242.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178c3025-e7c2-49f3-ba01-03c47502882c")
 	)
 	(wire
 		(pts
@@ -5542,16 +5562,6 @@
 			(type default)
 		)
 		(uuid "24e84368-47cc-4919-bbf1-ea3738cd9dbb")
-	)
-	(wire
-		(pts
-			(xy 238.125 54.61) (xy 238.125 56.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298e6177-db8d-4b96-b340-cc0170439e7a")
 	)
 	(wire
 		(pts
@@ -5925,16 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 56.515) (xy 238.125 56.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6185f88a-1764-458d-9070-9a17f4dda57b")
-	)
-	(wire
-		(pts
 			(xy 242.57 198.12) (xy 242.57 199.39)
 		)
 		(stroke
@@ -5945,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 52.07) (xy 247.65 54.61)
+			(xy 247.65 52.07) (xy 247.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6002,6 +6002,16 @@
 			(type default)
 		)
 		(uuid "6a4bf992-9575-4e5b-99cf-86f895b29064")
+	)
+	(wire
+		(pts
+			(xy 80.01 74.93) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac8607c-d9b6-43d1-aa7a-ef7243f14d61")
 	)
 	(wire
 		(pts
@@ -6062,6 +6072,16 @@
 			(type default)
 		)
 		(uuid "72da8bbf-2cb0-4c84-8814-0f174790527d")
+	)
+	(wire
+		(pts
+			(xy 247.65 53.34) (xy 247.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737ed100-463b-45c0-a13d-9611bf3aef06")
 	)
 	(wire
 		(pts
@@ -6202,6 +6222,16 @@
 			(type default)
 		)
 		(uuid "86e47fa1-51fa-49bd-91e5-87c2abeb66d8")
+	)
+	(wire
+		(pts
+			(xy 77.47 74.93) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d087d8-8ce6-44da-9628-23c85a778b0f")
 	)
 	(wire
 		(pts
@@ -6963,16 +6993,6 @@
 		)
 		(uuid "207552dd-f1d7-465b-890a-a8ea788486d9")
 	)
-	(label "RT9400_VB2"
-		(at 92.075 86.36 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "250fe047-9733-49b9-8b4b-e684d15c3686")
-	)
 	(label "CLK_EN"
 		(at 199.39 34.925 180)
 		(effects
@@ -7152,16 +7172,6 @@
 			(justify left bottom)
 		)
 		(uuid "68de4dc3-5587-474b-a8b7-0469945c1a5a")
-	)
-	(label "RT9400_VB1"
-		(at 92.075 81.28 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a9743bb-894e-40b3-b68c-c938471d2ea7")
 	)
 	(label "I2C_INT"
 		(at 99.06 191.77 180)
@@ -7593,6 +7603,16 @@
 		)
 		(uuid "cfa33bfe-5091-4a08-8451-b342e9154230")
 	)
+	(label "RT9400_VB2"
+		(at 80.01 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3dc389e-3d74-4d4d-b1a8-45c9608894aa")
+	)
 	(label "EMAC_MDC"
 		(at 135.89 109.22 0)
 		(effects
@@ -7702,6 +7722,16 @@
 			(justify right bottom)
 		)
 		(uuid "f6ecbdfa-d8f5-49e2-a778-bddb4df726d5")
+	)
+	(label "RT9400_VB1"
+		(at 77.47 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbf5e31a-0dd1-445b-b650-1e14a9ef4399")
 	)
 	(label "ESP_EN"
 		(at 174.625 73.025 90)
@@ -10142,7 +10172,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 238.125 52.07 0)
+		(at 242.57 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10150,7 +10180,7 @@
 		(dnp no)
 		(uuid "6e38ed9d-b711-4183-a359-a7eded752fbf")
 		(property "Reference" "H3"
-			(at 236.855 47.625 0)
+			(at 241.3 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10189,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 234.95 43.815 0)
+			(at 239.395 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +10199,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 238.125 52.07 0)
+			(at 242.57 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.125 52.07 0)
+			(at 242.57 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.125 52.07 0)
+			(at 242.57 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13296,6 +13326,26 @@
 		(pin "POE-" input
 			(at 89.535 85.09 0)
 			(uuid "6b62d629-d518-419e-9c87-52d8423316d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POE+_OUT" input
+			(at 77.47 76.2 90)
+			(uuid "db58d74d-d835-4854-8554-594022530360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POE-_OUT" input
+			(at 80.01 76.2 90)
+			(uuid "0100fa7c-d2f8-48e3-8a6f-94f1b3749916")
 			(effects
 				(font
 					(size 1.27 1.27)
