@@ -2643,7 +2643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"
 			(at 137.16 92.71 0)
 			(effects
 				(font
