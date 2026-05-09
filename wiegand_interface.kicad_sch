@@ -630,6 +630,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -858,35 +994,73 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LED/Buzzer zwiera się do masy"
+		(exclude_from_sim no)
+		(at 55.372 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "233fc380-d346-4ce1-97e9-4d8bd39d798e")
+	)
+	(text "Pull-ups needed, because ESP doesn't allow internal pullups on IO34 and IO35"
+		(exclude_from_sim no)
+		(at 60.452 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db085fb5-434d-49d4-b438-dbc1c2a5f1f5")
+	)
 	(junction
-		(at 140.97 127)
+		(at 120.65 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03c8fdbc-f234-4375-805f-09e4172d3a2b")
 	)
 	(junction
-		(at 114.3 124.46)
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fe38491-e689-42e9-b9d2-fe25ed524a7e")
+	)
+	(junction
+		(at 93.98 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dc57af7-9eca-4b28-adbd-b557a1cc94df")
 	)
 	(junction
-		(at 87.63 119.38)
+		(at 212.09 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "330e8804-2196-4a3b-81bc-45ebb5b3f708")
+		(uuid "3f453e1a-ea2b-40ab-8840-b38533bceb79")
 	)
 	(junction
-		(at 99.06 119.38)
+		(at 78.74 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c96083-7feb-42dd-9e05-d5eab14ac514")
 	)
 	(junction
-		(at 129.54 124.46)
+		(at 267.97 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a01e5eb-9382-4adf-ab04-a1aaeacc5592")
+	)
+	(junction
+		(at 109.22 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60c0ca54-0248-4595-9cbf-2a8fb2a1c99f")
+	)
+	(junction
+		(at 93.98 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65819107-20a4-489f-bcec-441d633a7a10")
 	)
 	(junction
 		(at 173.99 125.73)
@@ -895,16 +1069,40 @@
 		(uuid "67e5ebe0-119d-4a99-a167-0961232764e9")
 	)
 	(junction
-		(at 67.31 118.11)
+		(at 46.99 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9658e040-b1da-49bf-82a9-7f0dfea323aa")
 	)
 	(junction
-		(at 156.21 127)
+		(at 227.33 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f47df7a-836f-47cf-9008-081824825e9a")
+	)
+	(junction
+		(at 135.89 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a99f3506-0292-4472-aac1-21bf57691395")
+	)
+	(junction
+		(at 67.31 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3bf390d-7dae-4f57-888c-43f728b302d1")
+	)
+	(junction
+		(at 252.73 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b74daad4-80c4-4877-b39e-d1ab176c9614")
+	)
+	(junction
+		(at 36.83 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d340f129-800e-495b-a7fd-95ea18f6d0af")
 	)
 	(junction
 		(at 189.23 125.73)
@@ -912,15 +1110,9 @@
 		(color 0 0 0 0)
 		(uuid "dae80292-358e-4682-b6fa-28258ec20f3f")
 	)
-	(junction
-		(at 57.15 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddfd43f9-ee52-4764-b04e-9093fb1d8df9")
-	)
 	(wire
 		(pts
-			(xy 140.97 127) (xy 140.97 130.81)
+			(xy 120.65 138.43) (xy 120.65 142.24)
 		)
 		(stroke
 			(width 0)
@@ -930,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 88.9 85.09)
+			(xy 68.58 92.71) (xy 68.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -950,7 +1142,27 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 119.38) (xy 87.63 111.76)
+			(xy 217.17 87.63) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144d0423-fb97-4776-8968-dd307359998b")
+	)
+	(wire
+		(pts
+			(xy 36.83 129.54) (xy 36.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae3c30e-409d-4ecb-a7ef-656c68281efb")
+	)
+	(wire
+		(pts
+			(xy 67.31 130.81) (xy 67.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +1182,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 99.06 114.3)
+			(xy 250.19 86.36) (xy 252.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c070e6-4038-4244-9cab-66203dd3708e")
+	)
+	(wire
+		(pts
+			(xy 78.74 130.81) (xy 78.74 125.73)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +1202,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 124.46) (xy 129.54 124.46)
+			(xy 93.98 99.06) (xy 93.98 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa5c431-b7bf-4ea3-9983-d198c3fcd280")
+	)
+	(wire
+		(pts
+			(xy 104.14 135.89) (xy 109.22 135.89)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 114.3 128.27)
+			(xy 93.98 135.89) (xy 93.98 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 111.76) (xy 88.9 111.76)
+			(xy 67.31 123.19) (xy 68.58 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1010,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 119.38) (xy 99.06 119.38)
+			(xy 77.47 130.81) (xy 78.74 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 114.3) (xy 62.23 114.3)
+			(xy 46.99 125.73) (xy 41.91 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1282,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 146.05 99.06)
+			(xy 125.73 101.6) (xy 125.73 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1070,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 99.06)
+			(xy 99.06 107.95) (xy 99.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1080,13 +1312,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 119.38) (xy 146.05 119.38)
+			(xy 135.89 130.81) (xy 125.73 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d725558-7ce1-4c7f-acc0-12f35a3f624a")
+	)
+	(wire
+		(pts
+			(xy 222.25 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc9890e-4962-4397-aeca-18c47ecf926d")
 	)
 	(wire
 		(pts
@@ -1100,7 +1342,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 129.54 133.35)
+			(xy 262.89 91.44) (xy 262.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474b6767-51e7-4791-87d0-bf086070443f")
+	)
+	(wire
+		(pts
+			(xy 252.73 110.49) (xy 252.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0e201c-2cc9-473e-8cf6-ea64f9028dd5")
+	)
+	(wire
+		(pts
+			(xy 109.22 135.89) (xy 109.22 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1110,27 +1372,37 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 115.57) (xy 57.15 111.76)
+			(xy 212.09 87.63) (xy 212.09 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bd818d2-e448-4070-b063-abb1b26480ac")
+		(uuid "4d4edc7f-79f6-448f-8a31-f9758d71e36f")
 	)
 	(wire
 		(pts
-			(xy 87.63 124.46) (xy 87.63 119.38)
+			(xy 212.09 124.46) (xy 214.63 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58213116-0786-4e49-955c-49b8f61b0bef")
+		(uuid "51be3619-f38b-4afa-94be-447d717c862d")
 	)
 	(wire
 		(pts
-			(xy 140.97 138.43) (xy 140.97 142.24)
+			(xy 252.73 86.36) (xy 252.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5430f55b-ad24-4d0b-9328-3a2cefe1dea7")
+	)
+	(wire
+		(pts
+			(xy 120.65 149.86) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1412,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 119.38 96.52)
+			(xy 104.14 107.95) (xy 99.06 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +1422,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 114.3) (xy 62.23 111.76)
+			(xy 209.55 87.63) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b05309e-03dc-4e5c-8b74-1a2c68967796")
+	)
+	(wire
+		(pts
+			(xy 262.89 86.36) (xy 257.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd9cda6-b665-42a8-a9b9-5007f0db39f1")
+	)
+	(wire
+		(pts
+			(xy 41.91 125.73) (xy 41.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1462,37 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 92.71) (xy 62.23 96.52)
+			(xy 267.97 115.57) (xy 267.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653d20e5-2792-4492-803b-c8ed53fbb202")
+	)
+	(wire
+		(pts
+			(xy 222.25 87.63) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fc9829-6486-46a2-8329-7a1c4bb5b9a4")
+	)
+	(wire
+		(pts
+			(xy 212.09 135.89) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a9e84b-449a-46d1-8d5c-acab8a810a51")
+	)
+	(wire
+		(pts
+			(xy 41.91 104.14) (xy 41.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1502,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 119.38) (xy 156.21 127)
+			(xy 93.98 90.17) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708df077-ed70-4834-b32e-7fcfed6a5af4")
+	)
+	(wire
+		(pts
+			(xy 267.97 115.57) (xy 257.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72be474c-75c9-49ce-abe1-e9e73943908b")
+	)
+	(wire
+		(pts
+			(xy 135.89 130.81) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1190,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 119.38) (xy 146.05 114.3)
+			(xy 125.73 130.81) (xy 125.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1552,47 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 114.3) (xy 93.98 111.76)
+			(xy 252.73 123.19) (xy 255.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c24719b-388b-4559-b419-95ddb1077767")
+	)
+	(wire
+		(pts
+			(xy 227.33 116.84) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81601711-f266-477f-b57e-16c61253604d")
+	)
+	(wire
+		(pts
+			(xy 252.73 123.19) (xy 252.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8364d306-888f-449f-b356-191fcac89a9c")
+	)
+	(wire
+		(pts
+			(xy 257.81 115.57) (xy 257.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a67907-09ef-4a7c-bd0d-f6ede87a658f")
+	)
+	(wire
+		(pts
+			(xy 73.66 125.73) (xy 73.66 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 151.13 90.17)
+			(xy 130.81 106.68) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 124.46) (xy 99.06 119.38)
+			(xy 78.74 135.89) (xy 78.74 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1240,7 +1622,37 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 90.17) (xy 140.97 90.17)
+			(xy 217.17 116.84) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f46d0c8-1e6c-42f4-800f-7e239fa82cae")
+	)
+	(wire
+		(pts
+			(xy 227.33 116.84) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f7704e-ae5e-4af2-8fe6-d3f77603e7fe")
+	)
+	(wire
+		(pts
+			(xy 267.97 123.19) (xy 267.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918d9d4e-c91a-4942-a54a-67ae1d95b402")
+	)
+	(wire
+		(pts
+			(xy 118.11 101.6) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 118.11) (xy 67.31 114.3)
+			(xy 46.99 129.54) (xy 46.99 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 81.28) (xy 57.15 85.09)
+			(xy 36.83 92.71) (xy 36.83 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1280,17 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 124.46) (xy 87.63 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "973b1bc2-2ce5-4ec4-9508-91ca409c8337")
-	)
-	(wire
-		(pts
-			(xy 119.38 114.3) (xy 119.38 116.84)
+			(xy 99.06 125.73) (xy 99.06 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1702,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 118.11) (xy 58.42 118.11)
+			(xy 36.83 129.54) (xy 38.1 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1310,17 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 115.57) (xy 57.15 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f968838-5251-48fd-b5ab-4abf896a73d2")
-	)
-	(wire
-		(pts
-			(xy 114.3 90.805) (xy 114.3 99.06)
+			(xy 93.98 102.235) (xy 93.98 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 93.98 96.52)
+			(xy 73.66 104.14) (xy 73.66 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 116.84 124.46)
+			(xy 93.98 135.89) (xy 96.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 92.71) (xy 57.15 96.52)
+			(xy 36.83 104.14) (xy 36.83 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1782,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 123.19) (xy 67.31 118.11)
+			(xy 46.99 134.62) (xy 46.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 140.97 99.06)
+			(xy 120.65 101.6) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1812,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 114.3) (xy 93.98 114.3)
+			(xy 252.73 134.62) (xy 252.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb34098b-ea7b-45ae-81eb-5eca1d4876e6")
+	)
+	(wire
+		(pts
+			(xy 78.74 125.73) (xy 73.66 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1430,13 +1832,33 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 135.89) (xy 114.3 139.7)
+			(xy 222.25 92.71) (xy 222.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbad39aa-4318-4917-a2d8-4a3793d9a826")
+	)
+	(wire
+		(pts
+			(xy 93.98 147.32) (xy 93.98 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf5178c1-1a7b-4c18-9ded-c71f9616b6c3")
+	)
+	(wire
+		(pts
+			(xy 212.09 124.46) (xy 212.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19925cd-b152-4c96-b29c-aefb54bd7ce7")
 	)
 	(wire
 		(pts
@@ -1450,7 +1872,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 114.3 124.46)
+			(xy 120.65 88.9) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60b2251-a0c7-4eb7-9116-6439babf2b20")
+	)
+	(wire
+		(pts
+			(xy 93.98 125.73) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 119.38) (xy 87.63 119.38)
+			(xy 69.85 130.81) (xy 67.31 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 127) (xy 143.51 127)
+			(xy 120.65 138.43) (xy 123.19 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1912,47 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 115.57) (xy 57.15 118.11)
+			(xy 262.89 123.19) (xy 267.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e0fc02-b8d5-4887-be49-4fb4556d3076")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fc30a5-bb4f-4d81-af13-bc412e2cc758")
+	)
+	(wire
+		(pts
+			(xy 257.81 86.36) (xy 257.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb00619-a421-421c-bb69-0f1e34e12f87")
+	)
+	(wire
+		(pts
+			(xy 67.31 130.81) (xy 67.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86eed33-d2fa-4019-8463-4ff4c3c14150")
+	)
+	(wire
+		(pts
+			(xy 36.83 123.19) (xy 36.83 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 127) (xy 156.21 127)
+			(xy 130.81 138.43) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1972,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 90.17) (xy 146.05 90.17)
+			(xy 120.65 97.79) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb14b8e6-212f-4e87-815e-eda89ea8407d")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 125.73 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 67.31 118.11)
+			(xy 45.72 129.54) (xy 46.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 140.97 127)
+			(xy 120.65 125.73) (xy 120.65 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +2012,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 127) (xy 156.21 137.16)
+			(xy 135.89 138.43) (xy 135.89 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 124.46 96.52)
+			(xy 104.14 113.03) (xy 104.14 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 92.71) (xy 88.9 96.52)
+			(xy 68.58 104.14) (xy 68.58 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.84) (xy 119.38 116.84)
+			(xy 109.22 128.27) (xy 99.06 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +2052,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.805) (xy 114.3 90.805)
+			(xy 212.09 111.76) (xy 212.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb833f56-9c6d-4e63-b957-d01e3adac0b1")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.235) (xy 93.98 102.235)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 129.54 116.84)
+			(xy 109.22 135.89) (xy 109.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1588,29 +2080,308 @@
 		)
 		(uuid "fe7d519f-b8dd-48d8-9ced-2ed3b3690238")
 	)
-	(label "EXT_PWR"
-		(at 85.09 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(image
+		(at 32.385 27.94)
+		(scale 0.215418)
+		(uuid "441f16a7-4a3b-435f-9ceb-e9fe163a5e76")
+		(data "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"
+			"0AAAAABJRU5ErkJggg=="
 		)
-		(uuid "9de1077f-8086-4db9-a50f-3cc5c63da643")
-	)
-	(label "EXT_PWR"
-		(at 54.61 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f85cff77-9d7a-42d0-9800-c20073810891")
 	)
 	(hierarchical_label "READER_BUZZER"
 		(shape input)
-		(at 99.06 124.46 270)
+		(at 67.31 133.35 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1619,7 +2390,7 @@
 		)
 		(uuid "2cf6c216-8e6f-4b76-bb9c-973dcd6a21f9")
 	)
-	(hierarchical_label "AUX_INP_GND"
+	(hierarchical_label "AUX_INP1_GND"
 		(shape input)
 		(at 189.23 146.05 270)
 		(effects
@@ -1632,7 +2403,7 @@
 	)
 	(hierarchical_label "LED"
 		(shape input)
-		(at 57.15 81.28 90)
+		(at 36.83 92.71 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1643,7 +2414,7 @@
 	)
 	(hierarchical_label "DAT1"
 		(shape input)
-		(at 111.76 90.805 180)
+		(at 91.44 102.235 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1652,9 +2423,20 @@
 		)
 		(uuid "5a620ae7-b8f5-4629-9ee5-04262951c454")
 	)
+	(hierarchical_label "AUX_INP3_GND"
+		(shape input)
+		(at 267.97 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b471411-a086-42cd-8959-9f4e70ff2a9f")
+	)
 	(hierarchical_label "READER_DAT0"
 		(shape input)
-		(at 140.97 142.24 270)
+		(at 120.65 153.67 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,7 +2447,7 @@
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
-		(at 88.9 81.28 90)
+		(at 68.58 92.71 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,9 +2456,42 @@
 		)
 		(uuid "6753876d-3312-46f7-bc15-cfc1f62986ad")
 	)
+	(hierarchical_label "AUX_INP_12V"
+		(shape input)
+		(at 212.09 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "770045b8-715b-412a-8891-2f00391c9c61")
+	)
+	(hierarchical_label "AUX_INP2_INV"
+		(shape input)
+		(at 209.55 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b2ddb80-5942-402c-8c9f-6ed3eaa68512")
+	)
+	(hierarchical_label "AUX_INP_12V"
+		(shape input)
+		(at 252.73 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d410469-2306-4ed8-afc9-725ee54c4bf0")
+	)
 	(hierarchical_label "DAT0"
 		(shape input)
-		(at 138.43 90.17 180)
+		(at 118.11 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,7 +2502,7 @@
 	)
 	(hierarchical_label "READER_LED"
 		(shape input)
-		(at 67.31 123.19 270)
+		(at 36.83 133.35 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1695,6 +2510,17 @@
 			(justify right)
 		)
 		(uuid "a06c5b34-36be-4a27-8dbd-9b1a1a9e9e3b")
+	)
+	(hierarchical_label "AUX_INP2_GND"
+		(shape input)
+		(at 227.33 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a417897f-3129-4fb0-8ef0-cc3bd0bf5ecb")
 	)
 	(hierarchical_label "AUX_INP_12V"
 		(shape input)
@@ -1707,7 +2533,7 @@
 		)
 		(uuid "ba24ba9c-85ea-4455-9863-8fbcf5f78a2b")
 	)
-	(hierarchical_label "AUX_INP_INV"
+	(hierarchical_label "AUX_INP1_INV"
 		(shape input)
 		(at 171.45 88.9 180)
 		(effects
@@ -1720,7 +2546,7 @@
 	)
 	(hierarchical_label "READER_DAT1"
 		(shape input)
-		(at 114.3 139.7 270)
+		(at 93.98 151.13 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,9 +2555,20 @@
 		)
 		(uuid "da67fca7-d2af-4f2b-a534-5dde90860986")
 	)
+	(hierarchical_label "AUX_INP3_INV"
+		(shape input)
+		(at 250.19 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7e55cce-76ca-44de-9e2b-c2524fd00859")
+	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 88.9 0)
+		(at 36.83 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1741,7 +2578,7 @@
 		(dnp no)
 		(uuid "05f9375e-b850-4f6c-bac5-fc268818d422")
 		(property "Reference" "R26"
-			(at 51.054 87.122 0)
+			(at 30.734 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1752,7 +2589,7 @@
 			)
 		)
 		(property "Value" "140"
-			(at 51.054 89.662 0)
+			(at 30.734 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1763,7 +2600,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 55.372 88.9 90)
+			(at 35.052 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +2611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 88.9 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,7 +2622,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 88.9 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +2633,7 @@
 			)
 		)
 		(property "LCSC" "C2974027"
-			(at 57.15 88.9 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +2644,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 57.15 88.9 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1818,7 +2655,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 57.15 88.9 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1845,7 +2682,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 143.51 106.68 90)
+		(at 123.19 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1855,7 +2692,7 @@
 		(dnp no)
 		(uuid "0bc660f3-8aae-405c-b40f-daed4e93d410")
 		(property "Reference" "U8"
-			(at 138.43 105.4099 90)
+			(at 118.11 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1866,7 +2703,7 @@
 			)
 		)
 		(property "Value" "EL3H7-G"
-			(at 138.43 107.9499 90)
+			(at 118.11 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1877,7 +2714,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 148.59 111.76 0)
+			(at 128.27 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +2727,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 143.51 106.68 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,7 +2739,7 @@
 			)
 		)
 		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 143.51 106.68 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1913,7 +2750,7 @@
 			)
 		)
 		(property "LCSC" "C92243"
-			(at 143.51 106.68 90)
+			(at 123.19 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,7 +2761,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 143.51 106.68 90)
+			(at 123.19 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,7 +2772,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 143.51 106.68 90)
+			(at 123.19 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,8 +2804,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
+		(at 214.63 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c082c22-bf04-4542-ac2e-dfc4b3099c2f")
+		(property "Reference" "U13"
+			(at 209.55 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EL3H7-G"
+			(at 209.55 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+			(at 219.71 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
+			(at 214.63 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 214.63 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C92243"
+			(at 214.63 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 214.63 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 214.63 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "13dd87c0-a8fd-42d0-a0b4-8b957a3cce84")
+		)
+		(pin "1"
+			(uuid "3f843cd2-aeb0-455e-9cbd-72184c4a6d49")
+		)
+		(pin "4"
+			(uuid "c152ad61-30d2-468e-9863-112eff53f3d3")
+		)
+		(pin "3"
+			(uuid "34ec8d24-4c9b-43ff-a4e4-8c3a6f1d3b85")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
-		(at 156.21 137.16 0)
+		(at 135.89 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1979,7 +2939,7 @@
 		(fields_autoplaced yes)
 		(uuid "19451010-3325-4fa8-8450-435f25975848")
 		(property "Reference" "#PWR07"
-			(at 156.21 143.51 0)
+			(at 135.89 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1990,7 +2950,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 156.21 142.24 0)
+			(at 135.89 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2000,7 +2960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 137.16 0)
+			(at 135.89 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2011,7 +2971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 137.16 0)
+			(at 135.89 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 156.21 137.16 0)
+			(at 135.89 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,6 +2999,120 @@
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.09 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b064bac-8ba2-48ef-bdfd-0e894c4ca78b")
+		(property "Reference" "R43"
+			(at 213.995 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 213.995 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 210.312 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907172"
+			(at 212.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 212.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 212.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48da01f1-763c-4f6d-a579-7bc831c90d0b")
+		)
+		(pin "2"
+			(uuid "28dd7da5-dc51-4c8c-b1a8-be543f4d9849")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2282,8 +3356,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 88.9 88.9 0)
+		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
+		(at 255.27 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2291,9 +3365,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4cb97972-1d76-4a73-9f8b-773a4e897e3e")
-		(property "Reference" "R27"
-			(at 82.55 87.63 0)
+		(uuid "3c538044-449d-4533-9da6-3fe65343da85")
+		(property "Reference" "U14"
+			(at 250.19 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2303,8 +3377,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140"
-			(at 82.55 90.17 0)
+		(property "Value" "EL3H7-G"
+			(at 250.19 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2314,8 +3388,33 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.122 88.9 90)
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+			(at 260.35 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
+			(at 255.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 255.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2325,30 +3424,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2974027"
-			(at 88.9 88.9 0)
+		(property "LCSC" "C92243"
+			(at 255.27 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2359,7 +3436,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 88.9 88.9 0)
+			(at 255.27 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +3447,205 @@
 			)
 		)
 		(property "IPN" ""
-			(at 88.9 88.9 0)
+			(at 255.27 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8456db1a-16cb-4ba0-8287-2794401120af")
+		)
+		(pin "1"
+			(uuid "1b014e9c-5c1c-4ec1-adb1-98e9aa25f519")
+		)
+		(pin "4"
+			(uuid "ef3d6ed9-e6cc-4b22-9d8b-2560d105cce4")
+		)
+		(pin "3"
+			(uuid "647749ea-9773-4400-b404-e5c9b160dfae")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4553ea76-61ff-4ab9-8f2f-b159733b8a90")
+		(property "Reference" "#PWR0103"
+			(at 262.89 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "608f2e3b-104b-41b9-bc8f-8b44880bdac1")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cb97972-1d76-4a73-9f8b-773a4e897e3e")
+		(property "Reference" "R27"
+			(at 62.23 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "140"
+			(at 62.23 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 66.802 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2974027"
+			(at 68.58 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 68.58 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 68.58 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,8 +3671,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 95.25 0)
+		(lib_id "Device:D_TVS")
+		(at 259.08 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2405,11 +3680,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "510ea36e-5f41-493f-b63d-8f13d65eb535")
-		(property "Reference" "#PWR063"
-			(at 151.13 101.6 0)
-			(hide yes)
+		(uuid "4d596850-d125-49e1-bb9b-e9bb2e0e793a")
+		(property "Reference" "D19"
+			(at 259.08 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2418,8 +3691,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 151.13 100.33 0)
+		(property "Value" "PESD5V0L1BA"
+			(at 259.08 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2428,8 +3701,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 95.25 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 259.08 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,7 +3713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 95.25 0)
+			(at 259.08 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +3724,121 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 95.25 0)
+			(at 259.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85380"
+			(at 259.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 259.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 259.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57242e5f-b9fc-4a1b-be08-f6410525d2eb")
+		)
+		(pin "2"
+			(uuid "b44a147f-5d9c-43ce-9b21-b39aaef1088e")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "510ea36e-5f41-493f-b63d-8f13d65eb535")
+		(property "Reference" "#PWR063"
+			(at 130.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,7 +3862,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 93.98 119.38 0)
+		(at 73.66 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2485,7 +3872,7 @@
 		(dnp no)
 		(uuid "53d8f442-af6c-4cca-8faa-cdf529ecab94")
 		(property "Reference" "D11"
-			(at 91.44 114.3 0)
+			(at 71.12 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2495,7 +3882,7 @@
 			)
 		)
 		(property "Value" "PESD15VL1BA"
-			(at 91.44 116.84 0)
+			(at 71.12 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2505,7 +3892,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 93.98 119.38 0)
+			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2516,7 +3903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 119.38 0)
+			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +3914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 119.38 0)
+			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +3925,7 @@
 			)
 		)
 		(property "LCSC" "C18723438"
-			(at 93.98 119.38 0)
+			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +3936,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 93.98 119.38 0)
+			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +3947,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 93.98 119.38 0)
+			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,7 +3974,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 120.65 124.46 180)
+		(at 100.33 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2597,7 +3984,7 @@
 		(dnp no)
 		(uuid "5a123376-3c89-45c9-a524-11cae3aa9129")
 		(property "Reference" "D8"
-			(at 120.65 121.666 0)
+			(at 100.33 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2607,7 +3994,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L1BA"
-			(at 120.65 119.126 0)
+			(at 100.33 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2617,7 +4004,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 120.65 124.46 0)
+			(at 100.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,7 +4015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 124.46 0)
+			(at 100.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +4026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 124.46 0)
+			(at 100.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +4037,7 @@
 			)
 		)
 		(property "LCSC" "C85380"
-			(at 120.65 124.46 0)
+			(at 100.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +4048,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 120.65 124.46 0)
+			(at 100.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +4059,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 120.65 124.46 0)
+			(at 100.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2699,7 +4086,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 59.69 104.14 90)
+		(at 39.37 115.57 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2711,7 +4098,7 @@
 		(fields_autoplaced yes)
 		(uuid "66fe53ac-3810-42ca-94e1-2c08f0702a26")
 		(property "Reference" "U9"
-			(at 64.77 102.8699 90)
+			(at 44.45 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2722,7 +4109,7 @@
 			)
 		)
 		(property "Value" "EL3H7-G"
-			(at 64.77 105.4099 90)
+			(at 44.45 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2733,7 +4120,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 64.77 99.06 0)
+			(at 44.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2746,7 +4133,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 59.69 104.14 0)
+			(at 39.37 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,7 +4145,7 @@
 			)
 		)
 		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 59.69 104.14 0)
+			(at 39.37 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +4156,7 @@
 			)
 		)
 		(property "LCSC" "C92243"
-			(at 59.69 104.14 90)
+			(at 39.37 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2780,7 +4167,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 59.69 104.14 90)
+			(at 39.37 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2791,7 +4178,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 59.69 104.14 90)
+			(at 39.37 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +4211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 134.62 0)
+		(at 120.65 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2834,7 +4221,7 @@
 		(dnp no)
 		(uuid "6ed8bd89-132c-4bc6-a8fb-0f32f6832ceb")
 		(property "Reference" "R31"
-			(at 142.875 133.3499 0)
+			(at 122.555 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2845,7 +4232,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 142.875 135.8899 0)
+			(at 122.555 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2856,7 +4243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 139.192 134.62 90)
+			(at 118.872 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +4254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 134.62 0)
+			(at 120.65 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +4265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 134.62 0)
+			(at 120.65 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,7 +4276,7 @@
 			)
 		)
 		(property "LCSC" "C5140972"
-			(at 140.97 134.62 0)
+			(at 120.65 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +4287,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 140.97 134.62 0)
+			(at 120.65 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2911,7 +4298,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 140.97 134.62 0)
+			(at 120.65 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,7 +4325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 129.54 133.35 0)
+		(at 46.99 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2947,9 +4334,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "75cffa3c-390a-490d-9e21-ded8867e4eb5")
-		(property "Reference" "#PWR06"
-			(at 129.54 139.7 0)
+		(uuid "741d5cf7-50db-4135-9c1c-027bd0fe5e99")
+		(property "Reference" "#PWR062"
+			(at 46.99 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2960,7 +4347,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 129.54 138.43 0)
+			(at 46.99 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2970,7 +4357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 133.35 0)
+			(at 46.99 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,7 +4368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 133.35 0)
+			(at 46.99 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2992,7 +4379,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 129.54 133.35 0)
+			(at 46.99 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c636a1f-7063-4496-b64e-57300f864ac2")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 109.22 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75cffa3c-390a-490d-9e21-ded8867e4eb5")
+		(property "Reference" "#PWR06"
+			(at 109.22 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND2"
+			(at 109.22 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 109.22 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,7 +4481,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 116.84 106.68 90)
+		(at 96.52 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3026,7 +4491,7 @@
 		(dnp no)
 		(uuid "7db771d1-f00d-4621-9350-52ee7a9ee9c7")
 		(property "Reference" "U10"
-			(at 111.76 105.4099 90)
+			(at 91.44 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3037,7 +4502,7 @@
 			)
 		)
 		(property "Value" "EL3H7-G"
-			(at 111.76 107.9499 90)
+			(at 91.44 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3048,7 +4513,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 121.92 111.76 0)
+			(at 101.6 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +4526,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 116.84 106.68 0)
+			(at 96.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +4538,7 @@
 			)
 		)
 		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 116.84 106.68 0)
+			(at 96.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +4549,7 @@
 			)
 		)
 		(property "LCSC" "C92243"
-			(at 116.84 106.68 90)
+			(at 96.52 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,7 +4560,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 116.84 106.68 90)
+			(at 96.52 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,7 +4571,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 116.84 106.68 90)
+			(at 96.52 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,8 +4603,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 92.71 180)
+		(lib_id "power:+3.3V")
+		(at 93.98 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3148,9 +4613,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93324881-05bc-4666-9ea2-7374a6858ab7")
-		(property "Reference" "#PWR058"
-			(at 62.23 86.36 0)
+		(uuid "8ab0dbb2-ebc7-463e-ba83-57b6fb5d6f1a")
+		(property "Reference" "#PWR0101"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,8 +4625,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 62.23 87.63 0)
+		(property "Value" "+3.3V"
+			(at 93.98 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3171,7 +4636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 92.71 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,7 +4647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 92.71 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3193,7 +4658,163 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 92.71 0)
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "187d6740-8cc7-4283-9e0b-bbe2c6a83ad2")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9258d0fd-092c-4b4f-b4f2-56bd98d877e0")
+		(property "Reference" "#PWR0102"
+			(at 222.25 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea706dc6-9894-4f92-b2d0-a1977419f97b")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93324881-05bc-4666-9ea2-7374a6858ab7")
+		(property "Reference" "#PWR058"
+			(at 41.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,8 +4837,200 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 252.73 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c84a0fd-2a5f-42b4-a4a2-bd8b3f1792ea")
+		(property "Reference" "R44"
+			(at 254.635 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 254.635 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 250.952 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907172"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37781442-34c5-4aeb-a392-6a7e55c82e18")
+		)
+		(pin "2"
+			(uuid "b2bbfb1c-7244-4959-bba7-d98d600fe1b3")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cb2b8ca-243d-4eb5-b9fc-419f2137314d")
+		(property "Reference" "#PWR0100"
+			(at 120.65 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 120.65 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05dad06d-aa88-4722-a443-47e90556d628")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 91.44 104.14 90)
+		(at 71.12 115.57 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3229,7 +5042,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e953281-888e-48d1-b032-f92a5bd48e2b")
 		(property "Reference" "U7"
-			(at 96.52 102.8699 90)
+			(at 76.2 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3240,7 +5053,7 @@
 			)
 		)
 		(property "Value" "EL3H7-G"
-			(at 96.52 105.4099 90)
+			(at 76.2 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3251,7 +5064,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
-			(at 96.52 99.06 0)
+			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,7 +5077,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/fa31fd9d447141494f76dc7ecda43c76/EL3H7-G.pdf"
-			(at 91.44 104.14 0)
+			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,7 +5089,7 @@
 			)
 		)
 		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 91.44 104.14 0)
+			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,7 +5100,7 @@
 			)
 		)
 		(property "LCSC" "C92243"
-			(at 91.44 104.14 90)
+			(at 71.12 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,7 +5111,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 91.44 104.14 90)
+			(at 71.12 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +5122,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 91.44 104.14 90)
+			(at 71.12 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +5155,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 132.08 0)
+		(at 93.98 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3352,7 +5165,7 @@
 		(dnp no)
 		(uuid "aa799ef4-1d5b-4468-9298-69bfcc0d380b")
 		(property "Reference" "R29"
-			(at 116.205 130.8099 0)
+			(at 95.885 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3363,7 +5176,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 116.205 133.3499 0)
+			(at 95.885 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3374,7 +5187,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 112.522 132.08 90)
+			(at 92.202 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3385,7 +5198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 132.08 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3396,7 +5209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 132.08 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,7 +5220,7 @@
 			)
 		)
 		(property "LCSC" "C5140972"
-			(at 114.3 132.08 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3418,7 +5231,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 114.3 132.08 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3429,7 +5242,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 114.3 132.08 0)
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3455,8 +5268,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 62.23 118.11 0)
+		(lib_id "Device:R")
+		(at 120.65 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3464,29 +5277,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b5829be9-b7cd-4d5e-84db-f156b2d8a07c")
-		(property "Reference" "D12"
-			(at 60.96 121.412 0)
+		(fields_autoplaced yes)
+		(uuid "ae189e89-99a1-42b6-a6c9-51b5fad545d3")
+		(property "Reference" "R38"
+			(at 122.555 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PESD15VL1BA"
-			(at 60.96 123.952 0)
+		(property "Value" "10k"
+			(at 122.555 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 62.23 118.11 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 118.872 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 118.11 0)
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +5324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 118.11 0)
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,8 +5334,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C18723438"
-			(at 62.23 118.11 0)
+		(property "LCSC" "C2930027"
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +5346,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 62.23 118.11 0)
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +5357,119 @@
 			)
 		)
 		(property "IPN" ""
-			(at 62.23 118.11 0)
+			(at 120.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a57fcee-a879-4550-8050-b144ff360e53")
+		)
+		(pin "2"
+			(uuid "5b511daa-3abb-4322-9df4-34a141efec79")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 41.91 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5829be9-b7cd-4d5e-84db-f156b2d8a07c")
+		(property "Reference" "D12"
+			(at 40.64 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD15VL1BA"
+			(at 40.64 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 41.91 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C18723438"
+			(at 41.91 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 41.91 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,8 +5495,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 92.71 180)
+		(lib_id "Device:R")
+		(at 93.98 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3577,30 +5505,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c034efc8-6229-4c73-8bb9-d07a4865070c")
-		(property "Reference" "#PWR055"
-			(at 93.98 86.36 0)
-			(hide yes)
+		(uuid "b5a92fb3-6973-4eba-919a-8d149e682538")
+		(property "Reference" "R42"
+			(at 95.885 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 93.98 87.63 0)
+		(property "Value" "10k"
+			(at 95.885 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 92.71 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 92.202 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +5540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 92.71 0)
+			(at 93.98 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,7 +5551,121 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 92.71 0)
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2930027"
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c78da3a-5a2f-4809-be73-f4eaa4f5c9ca")
+		)
+		(pin "2"
+			(uuid "eaf6dfde-bf93-433f-b70b-283feadff984")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c034efc8-6229-4c73-8bb9-d07a4865070c")
+		(property "Reference" "#PWR055"
+			(at 73.66 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +5689,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 147.32 127 180)
+		(at 127 138.43 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3656,7 +5699,7 @@
 		(dnp no)
 		(uuid "c9dc7bcb-233b-44d2-88bf-4d5df65c3074")
 		(property "Reference" "D9"
-			(at 147.32 123.952 0)
+			(at 127 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3666,7 +5709,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L1BA"
-			(at 147.32 121.412 0)
+			(at 127 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3676,7 +5719,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 147.32 127 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +5730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 127 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +5741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 127 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +5752,7 @@
 			)
 		)
 		(property "LCSC" "C85380"
-			(at 147.32 127 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +5763,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 147.32 127 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +5774,7 @@
 			)
 		)
 		(property "IPN" ""
-			(at 147.32 127 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +5879,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 101.6 0)
+		(at 104.14 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3846,7 +5889,7 @@
 		(dnp no)
 		(uuid "dca68966-adef-4dea-9233-ac77ea7bbc44")
 		(property "Reference" "#PWR060"
-			(at 124.46 107.95 0)
+			(at 104.14 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3857,7 +5900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.905 102.87 0)
+			(at 108.585 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3867,7 +5910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 101.6 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3878,7 +5921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 101.6 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3889,7 +5932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 101.6 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,6 +6061,196 @@
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 218.44 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e484b057-272b-413e-8763-1df4d4680876")
+		(property "Reference" "D18"
+			(at 218.44 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V0L1BA"
+			(at 218.44 118.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85380"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a29b283-eb69-4be8-a97d-09cfaa7e378d")
+		)
+		(pin "2"
+			(uuid "d52e4221-9e64-47c6-bed0-f8106ddccb46")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 78.74 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e7bd57-5a42-4f95-8fcb-70a6ac7a9e00")
+		(property "Reference" "#PWR099"
+			(at 78.74 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND2"
+			(at 78.74 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 78.74 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4dcc77b-65cc-4692-9468-70264d893393")
+		)
+		(instances
+			(project "Zamkonator"
+				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/6b89ba24-3094-438d-a07a-020a470fc0fc"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
