@@ -7513,7 +7513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "044f93d2-cbb5-47cb-80c9-cb06c7dd25f8")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR049"
 			(at 129.54 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7573,7 +7573,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR080")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7592,7 +7592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2b32df-55b8-40e4-ae7d-f62a5e441b36")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR054"
 			(at 201.93 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7652,7 +7652,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR014")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7670,7 +7670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ca764df-3541-49c9-805a-d6e26a98c8e6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR046"
 			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7730,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR020")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7747,7 +7747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e05d980-bc47-496b-9451-f620068d470f")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 77.47 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7844,7 +7844,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7863,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2063c1cb-a9e2-407d-b95d-8d6fb17df764")
-		(property "Reference" "R1"
+		(property "Reference" "R15"
 			(at 220.98 74.295 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7958,7 +7958,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8091,7 +8091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bf2d448-1aba-4e0c-871c-f9d2304a7086")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 76.2 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8188,7 +8188,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36aef75a-5623-479d-a854-2be1b223f38e")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 203.2 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8303,7 +8303,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8322,7 +8322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b1fbae3-c174-413f-ac45-f7f589e43723")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 198.12 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8419,7 +8419,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8436,7 +8436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e099b9d-b274-4dfd-ab82-225a44541183")
-		(property "Reference" "TP5"
+		(property "Reference" "TP16"
 			(at 79.375 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8519,7 +8519,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "TP5")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -8536,7 +8536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4659375c-a5c1-410d-a780-8dcf0e48fd1f")
-		(property "Reference" "C10"
+		(property "Reference" "C5"
 			(at 62.23 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +8633,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C10")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8651,7 +8651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "518758e2-8fee-49f7-b0c6-8a6bf4c815d7")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 187.96 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8748,7 +8748,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "554c1487-c20c-4bd1-83c9-1a182bfaa5fb")
-		(property "Reference" "R3"
+		(property "Reference" "R14"
 			(at 210.82 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8863,7 +8863,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R3")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8881,7 +8881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61eecf11-6b4c-4999-be36-ff14b471e153")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR048"
 			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8941,7 +8941,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR09")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8959,7 +8959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63794030-b754-4028-a43b-9f8ac88808a1")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR045"
 			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9019,7 +9019,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR083")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9037,7 +9037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66fe7d19-28ce-434b-b92c-7e05d9247938")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR053"
 			(at 177.8 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9097,7 +9097,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR081")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9115,7 +9115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "678522ca-0fa9-4c56-b94a-2a5b08c1e662")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR041"
 			(at 25.4 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9175,7 +9175,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR017")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9192,7 +9192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "681f6f6f-037f-4c6e-99db-511a2359309a")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 36.195 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9289,7 +9289,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9307,7 +9307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6af16d62-eaa3-4be6-80df-982c10ed696d")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 87.63 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9404,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9424,7 +9424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b65041a-d462-4dbd-9e89-0653ccb6d431")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR057"
 			(at 237.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9485,7 +9485,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR0110")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9503,7 +9503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "704c3843-e17b-4896-9031-5e1a4944df4a")
-		(property "Reference" "R2"
+		(property "Reference" "R16"
 			(at 220.98 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9598,7 +9598,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R2")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9616,7 +9616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7673dbae-20b5-4220-91a4-7deaf025ca66")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR043"
 			(at 52.07 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9676,7 +9676,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR015")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9694,7 +9694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d59c3a-4a85-4122-b074-43e48675df80")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR044"
 			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9754,7 +9754,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR082")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9772,7 +9772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b50dc98-96d4-4379-98ae-2a455c29ff6e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR055"
 			(at 204.47 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9832,7 +9832,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR013")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -9850,7 +9850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9123b16a-12a7-4030-994b-7f36b221f425")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR050"
 			(at 154.94 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9910,7 +9910,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR018")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10219,7 +10219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f6c44e-06d7-41b7-861d-a6083083195d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR051"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10279,7 +10279,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR016")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10296,7 +10296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a35e0f3a-1dae-4680-8067-c5800db61069")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 131.7341 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10486,7 +10486,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10504,7 +10504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39454e3-e6fb-45d8-aed2-66a614a21719")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 181.61 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10601,7 +10601,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10618,7 +10618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5cacea9-9c09-4939-b801-09b782b76126")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR047"
 			(at 83.185 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10678,7 +10678,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR019")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10696,7 +10696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a68bd60a-92e8-4886-9917-365bb768960c")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 195.58 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,7 +10793,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10811,7 +10811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab4a6d92-2c68-4343-9cba-d9d6cdc87db8")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR052"
 			(at 167.64 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10871,7 +10871,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR079")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10889,7 +10889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af956870-89a6-42a6-bbef-38539b2362bf")
-		(property "Reference" "C3"
+		(property "Reference" "C12"
 			(at 243.84 137.795 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10986,7 +10986,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C3")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11003,7 +11003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b023df16-89a0-44f8-b620-c618db9e4a0e")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 17.78 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11100,7 +11100,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11117,7 +11117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2b1e139-5aa2-45ac-b39a-57e9727adc34")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 67.31 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11214,7 +11214,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11231,7 +11231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5b2edba-0a10-4e05-83f4-d8b82bbe5887")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 156.21 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,7 +11328,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11347,7 +11347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8cee972-1510-4b7d-b50a-8bda6d429ebd")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR056"
 			(at 236.22 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11407,7 +11407,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR012")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11425,7 +11425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0442497-8589-47ab-9e3c-70d05df16f8e")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 57.785 55.5624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11536,7 +11536,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11554,7 +11554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9047b52-b037-459a-88e7-88369bc874f6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR042"
 			(at 28.575 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11614,7 +11614,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "#PWR010")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11631,7 +11631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4386c12-5aa0-4151-96d7-e9b98cfe3796")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 171.45 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11728,7 +11728,7 @@
 		(instances
 			(project "Zamkonator"
 				(path "/727d6c0a-a0ef-4feb-9656-3db3cb90564a/0599421a-f0cb-4879-9da8-2ed04adba3ce"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
