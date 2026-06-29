@@ -3520,7 +3520,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 100.33 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4861,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 100.33 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)

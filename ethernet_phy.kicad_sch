@@ -7758,7 +7758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 77.47 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +8333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 198.12 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8547,7 +8547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 62.23 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 87.63 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10515,7 +10515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 181.61 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10900,7 +10900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 243.84 140.335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11642,7 +11642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 100V"
 			(at 171.45 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
